@@ -39,7 +39,7 @@
             // GameStart_btn
             // 
             this.GameStart_btn.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.GameStart_btn.Font = new System.Drawing.Font("휴먼옛체", 18F);
+            this.GameStart_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.GameStart_btn.Location = new System.Drawing.Point(358, 377);
             this.GameStart_btn.Margin = new System.Windows.Forms.Padding(2);
             this.GameStart_btn.Name = "GameStart_btn";
@@ -47,11 +47,12 @@
             this.GameStart_btn.TabIndex = 0;
             this.GameStart_btn.Text = "게임 시작";
             this.GameStart_btn.UseVisualStyleBackColor = false;
+            this.GameStart_btn.Click += new System.EventHandler(this.GameStart_btn_Click);
             // 
             // GameRule_Btn
             // 
             this.GameRule_Btn.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.GameRule_Btn.Font = new System.Drawing.Font("휴먼옛체", 18F);
+            this.GameRule_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.GameRule_Btn.Location = new System.Drawing.Point(358, 439);
             this.GameRule_Btn.Margin = new System.Windows.Forms.Padding(2);
             this.GameRule_Btn.Name = "GameRule_Btn";
@@ -64,7 +65,7 @@
             // Exit_Btn
             // 
             this.Exit_Btn.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Exit_Btn.Font = new System.Drawing.Font("휴먼옛체", 18F);
+            this.Exit_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.Exit_Btn.Location = new System.Drawing.Point(358, 506);
             this.Exit_Btn.Margin = new System.Windows.Forms.Padding(2);
             this.Exit_Btn.Name = "Exit_Btn";
@@ -98,6 +99,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "GameStartScreen";
             this.Text = "BlueMarble";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GameStartScreen_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
