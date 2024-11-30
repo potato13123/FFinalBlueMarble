@@ -96,5 +96,65 @@ namespace BlueMarbleProject
                 PlayerInfo[4].BuildName = new List<string>(); // 4 플레이어의 소유 건물
             }
         }
+
+        private void MainBoard_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void P1_Location_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void P2_Location_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void P2_Location_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void P1_Location_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void P4_Location_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void P3_Location_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BuildArea14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BuildArea13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Area18_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

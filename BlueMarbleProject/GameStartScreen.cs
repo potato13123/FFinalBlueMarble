@@ -23,13 +23,6 @@ namespace BlueMarbleProject
             if (MessageBox.Show("종료하시겠습니까?", "게임 종료", MessageBoxButtons.OKCancel) == DialogResult.OK) // OKCancel창이 뜨고
                 this.Close(); // Cancel은 이전, OK는 종료
         }
-        private void GameRule_Btn_Click(object sender, EventArgs e)
-        {
-            GameRuleScreen GRS_Form = new GameRuleScreen(); // GammeRuleScreen 객체 생성
-
-            GRS_Form.Show(); // 룰 설명 스크린 띄우기
-            this.Hide(); // close 사용 시 종속되어 있는 Rule도 같이 꺼지므로 숨기기
-        }
         private void GameStartScreen_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit(); // 메인 폼이 종료될 때 (hide된 된 폼 제거)앱 종료
