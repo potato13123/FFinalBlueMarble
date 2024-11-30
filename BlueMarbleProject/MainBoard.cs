@@ -84,6 +84,7 @@ namespace BlueMarbleProject
         {
             InitializeComponent();
             GameSetting(P2BtnClicked, P3BtnClicked, P4BtnClicked, Team_BtnClicked, Solo_BtnClicked);
+            GoldKeySet();
         }
 
         private void MainBoard_FormClosing(object sender, FormClosingEventArgs e) // hide
@@ -103,7 +104,7 @@ namespace BlueMarbleProject
 
             P1 = new PictureBox[] // P1 위치 초기화
             {
-                P1_Location_1, P1_Location_2
+                P1_Location_1, P1_Location_2, P1_Location_3, P1_Location_4, P1_Location_5, P1_Location_6, P1_Location_7, P1_Location_8, P1_Location_9
             };
             P2 = new PictureBox[] // P2 위치 초기화
             {
@@ -506,15 +507,15 @@ namespace BlueMarbleProject
             Dice_Btn.BackColor = Color.Purple;
             if (cnt < 6) // 6번 굴려서 랜덤하게 나오는 것처럼 애니메이션 효과를 줌
             {
-                Left_Dice.Image = imageList1.Images[cnt];
-                Right_Dice.Image = imageList1.Images[cnt];
+                Left_Dice.BackgroundImage = imageList1.Images[cnt];
+                Right_Dice.BackgroundImage = imageList1.Images[cnt];
             }
             cnt++;
 
             if (cnt == 6)
             {
-                Left_Dice.Image = imageList1.Images[int.Parse(lbdice1.Text) - 1]; // 스트링 형으로 저장된 주사위 값을 인트형으로 변환 후 이미지 리스트의 배열 값에 맞게 -1을 하여 시각적으로 표현
-                Right_Dice.Image = imageList1.Images[int.Parse(lbdice2.Text) - 1];
+                Left_Dice.BackgroundImage = imageList1.Images[int.Parse(lbdice1.Text) - 1]; // 스트링 형으로 저장된 주사위 값을 인트형으로 변환 후 이미지 리스트의 배열 값에 맞게 -1을 하여 시각적으로 표현
+                Right_Dice.BackgroundImage = imageList1.Images[int.Parse(lbdice2.Text) - 1];
 
                 playerNowLocation = PlayerInfo[diceTurn].Location; // 현재 위치 초기화
                 playerLastLocation = (PlayerInfo[diceTurn].Location + diceSum) % 36; // 주사위 굴린 후 최종 위치 초기화
@@ -563,7 +564,7 @@ namespace BlueMarbleProject
                 {
                     timer2.Start();
                 } 
-                timer3.Start();
+                timer3.Stop();
                 cnt = 0;
             }
 
