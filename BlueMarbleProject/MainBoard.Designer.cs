@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainBoard));
             this.Area1 = new System.Windows.Forms.PictureBox();
             this.Area2 = new System.Windows.Forms.PictureBox();
@@ -96,8 +97,23 @@
             this.P3_Location_1 = new System.Windows.Forms.PictureBox();
             this.P1_Location_2 = new System.Windows.Forms.PictureBox();
             this.P2_Location_2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.P3_Location_2 = new System.Windows.Forms.PictureBox();
+            this.P4_Location_2 = new System.Windows.Forms.PictureBox();
+            this.CurDiceTurn = new System.Windows.Forms.Label();
+            this.P1_CurMoney = new System.Windows.Forms.Label();
+            this.P3_CurMoney = new System.Windows.Forms.Label();
+            this.P2_CurMoney = new System.Windows.Forms.Label();
+            this.P4_CurMoney = new System.Windows.Forms.Label();
+            this.P1_CurAsset = new System.Windows.Forms.Button();
+            this.P4_CurAsset = new System.Windows.Forms.Button();
+            this.P3_CurAsset = new System.Windows.Forms.Button();
+            this.P2_CurAsset = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.lbdice1 = new System.Windows.Forms.Label();
+            this.lbdice2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Area1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Area2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Area3)).BeginInit();
@@ -164,13 +180,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.P3_Location_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P1_Location_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P2_Location_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_Location_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_Location_2)).BeginInit();
             this.SuspendLayout();
             // 
             // Area1
             // 
             this.Area1.BackColor = System.Drawing.Color.Lime;
+            this.Area1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Area1.BackgroundImage")));
+            this.Area1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Area1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area1.Location = new System.Drawing.Point(-1, 1153);
             this.Area1.Margin = new System.Windows.Forms.Padding(4);
@@ -237,6 +255,8 @@
             // Area7
             // 
             this.Area7.BackColor = System.Drawing.Color.Yellow;
+            this.Area7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Area7.BackgroundImage")));
+            this.Area7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Area7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area7.Location = new System.Drawing.Point(806, 1152);
             this.Area7.Margin = new System.Windows.Forms.Padding(4);
@@ -244,6 +264,7 @@
             this.Area7.Size = new System.Drawing.Size(115, 233);
             this.Area7.TabIndex = 6;
             this.Area7.TabStop = false;
+            this.Area7.UseWaitCursor = true;
             // 
             // Area8
             // 
@@ -270,6 +291,8 @@
             // Area10
             // 
             this.Area10.BackColor = System.Drawing.Color.Blue;
+            this.Area10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Area10.BackgroundImage")));
+            this.Area10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Area10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area10.Location = new System.Drawing.Point(1150, 1152);
             this.Area10.Margin = new System.Windows.Forms.Padding(4);
@@ -303,6 +326,8 @@
             // Area21
             // 
             this.Area21.BackColor = System.Drawing.Color.Yellow;
+            this.Area21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Area21.BackgroundImage")));
+            this.Area21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Area21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area21.Location = new System.Drawing.Point(921, -1);
             this.Area21.Margin = new System.Windows.Forms.Padding(4);
@@ -359,6 +384,7 @@
             // Area26
             // 
             this.Area26.BackColor = System.Drawing.Color.Aqua;
+            this.Area26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Area26.BackgroundImage")));
             this.Area26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area26.Location = new System.Drawing.Point(347, -1);
             this.Area26.Margin = new System.Windows.Forms.Padding(4);
@@ -381,6 +407,8 @@
             // Area28
             // 
             this.Area28.BackColor = System.Drawing.Color.Navy;
+            this.Area28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Area28.BackgroundImage")));
+            this.Area28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Area28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area28.Location = new System.Drawing.Point(-1, 0);
             this.Area28.Margin = new System.Windows.Forms.Padding(4);
@@ -399,11 +427,12 @@
             this.Area18.Size = new System.Drawing.Size(175, 115);
             this.Area18.TabIndex = 27;
             this.Area18.TabStop = false;
-            this.Area18.Click += new System.EventHandler(this.Area18_Click);
             // 
             // Area17
             // 
             this.Area17.BackColor = System.Drawing.Color.Yellow;
+            this.Area17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Area17.BackgroundImage")));
+            this.Area17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Area17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area17.Location = new System.Drawing.Point(1150, 347);
             this.Area17.Margin = new System.Windows.Forms.Padding(4);
@@ -492,6 +521,7 @@
             // Area30
             // 
             this.Area30.BackColor = System.Drawing.Color.Aqua;
+            this.Area30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Area30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area30.Location = new System.Drawing.Point(-1, 348);
             this.Area30.Margin = new System.Windows.Forms.Padding(4);
@@ -513,7 +543,9 @@
             // 
             // Area32
             // 
-            this.Area32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Area32.BackColor = System.Drawing.Color.Yellow;
+            this.Area32.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Area32.BackgroundImage")));
+            this.Area32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Area32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area32.Location = new System.Drawing.Point(-2, 578);
             this.Area32.Margin = new System.Windows.Forms.Padding(4);
@@ -547,6 +579,8 @@
             // Area35
             // 
             this.Area35.BackColor = System.Drawing.Color.Lime;
+            this.Area35.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Area35.BackgroundImage")));
+            this.Area35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Area35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area35.Location = new System.Drawing.Point(-2, 923);
             this.Area35.Margin = new System.Windows.Forms.Padding(4);
@@ -719,7 +753,6 @@
             this.BuildArea13.Size = new System.Drawing.Size(115, 57);
             this.BuildArea13.TabIndex = 53;
             this.BuildArea13.TabStop = false;
-            this.BuildArea13.Click += new System.EventHandler(this.BuildArea13_Click);
             // 
             // BuildArea14
             // 
@@ -731,7 +764,6 @@
             this.BuildArea14.Size = new System.Drawing.Size(115, 57);
             this.BuildArea14.TabIndex = 54;
             this.BuildArea14.TabStop = false;
-            this.BuildArea14.Click += new System.EventHandler(this.BuildArea14_Click);
             // 
             // BuildArea15
             // 
@@ -812,7 +844,7 @@
             // 
             // Dice_Btn
             // 
-            this.Dice_Btn.BackColor = System.Drawing.Color.Fuchsia;
+            this.Dice_Btn.BackColor = System.Drawing.Color.Magenta;
             this.Dice_Btn.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dice_Btn.Location = new System.Drawing.Point(666, 1005);
             this.Dice_Btn.Margin = new System.Windows.Forms.Padding(4);
@@ -821,6 +853,7 @@
             this.Dice_Btn.TabIndex = 65;
             this.Dice_Btn.Text = "굴리기";
             this.Dice_Btn.UseVisualStyleBackColor = false;
+            this.Dice_Btn.Click += new System.EventHandler(this.Dice_Btn_Click);
             // 
             // Left_Dice
             // 
@@ -828,7 +861,7 @@
             this.Left_Dice.Location = new System.Drawing.Point(597, 897);
             this.Left_Dice.Margin = new System.Windows.Forms.Padding(4);
             this.Left_Dice.Name = "Left_Dice";
-            this.Left_Dice.Size = new System.Drawing.Size(94, 99);
+            this.Left_Dice.Size = new System.Drawing.Size(99, 99);
             this.Left_Dice.TabIndex = 66;
             this.Left_Dice.TabStop = false;
             // 
@@ -838,7 +871,7 @@
             this.Right_Dice.Location = new System.Drawing.Point(736, 897);
             this.Right_Dice.Margin = new System.Windows.Forms.Padding(4);
             this.Right_Dice.Name = "Right_Dice";
-            this.Right_Dice.Size = new System.Drawing.Size(94, 99);
+            this.Right_Dice.Size = new System.Drawing.Size(99, 99);
             this.Right_Dice.TabIndex = 67;
             this.Right_Dice.TabStop = false;
             // 
@@ -853,7 +886,6 @@
             this.P1_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P1_Location_1.TabIndex = 68;
             this.P1_Location_1.TabStop = false;
-            this.P1_Location_1.Click += new System.EventHandler(this.P1_Location_1_Click);
             // 
             // P2_Location_1
             // 
@@ -866,7 +898,6 @@
             this.P2_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P2_Location_1.TabIndex = 69;
             this.P2_Location_1.TabStop = false;
-            this.P2_Location_1.Click += new System.EventHandler(this.P2_Location_1_Click);
             // 
             // P4_Location_1
             // 
@@ -879,7 +910,6 @@
             this.P4_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P4_Location_1.TabIndex = 70;
             this.P4_Location_1.TabStop = false;
-            this.P4_Location_1.Click += new System.EventHandler(this.P4_Location_1_Click);
             // 
             // P3_Location_1
             // 
@@ -892,7 +922,6 @@
             this.P3_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P3_Location_1.TabIndex = 71;
             this.P3_Location_1.TabStop = false;
-            this.P3_Location_1.Click += new System.EventHandler(this.P3_Location_1_Click);
             // 
             // P1_Location_2
             // 
@@ -905,7 +934,6 @@
             this.P1_Location_2.Size = new System.Drawing.Size(51, 68);
             this.P1_Location_2.TabIndex = 78;
             this.P1_Location_2.TabStop = false;
-            this.P1_Location_2.Click += new System.EventHandler(this.P1_Location_2_Click);
             // 
             // P2_Location_2
             // 
@@ -918,33 +946,163 @@
             this.P2_Location_2.Size = new System.Drawing.Size(51, 68);
             this.P2_Location_2.TabIndex = 79;
             this.P2_Location_2.TabStop = false;
-            this.P2_Location_2.Click += new System.EventHandler(this.P2_Location_2_Click);
             // 
-            // pictureBox2
+            // P3_Location_2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(239, 1312);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 68);
-            this.pictureBox2.TabIndex = 80;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.P3_Location_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P3_Location_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P3_Location_2.BackgroundImage")));
+            this.P3_Location_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.P3_Location_2.Location = new System.Drawing.Point(239, 1312);
+            this.P3_Location_2.Margin = new System.Windows.Forms.Padding(4);
+            this.P3_Location_2.Name = "P3_Location_2";
+            this.P3_Location_2.Size = new System.Drawing.Size(51, 68);
+            this.P3_Location_2.TabIndex = 80;
+            this.P3_Location_2.TabStop = false;
             // 
-            // pictureBox3
+            // P4_Location_2
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(288, 1312);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(51, 68);
-            this.pictureBox3.TabIndex = 81;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.P4_Location_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P4_Location_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P4_Location_2.BackgroundImage")));
+            this.P4_Location_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.P4_Location_2.Location = new System.Drawing.Point(288, 1312);
+            this.P4_Location_2.Margin = new System.Windows.Forms.Padding(4);
+            this.P4_Location_2.Name = "P4_Location_2";
+            this.P4_Location_2.Size = new System.Drawing.Size(51, 68);
+            this.P4_Location_2.TabIndex = 81;
+            this.P4_Location_2.TabStop = false;
+            // 
+            // CurDiceTurn
+            // 
+            this.CurDiceTurn.Location = new System.Drawing.Point(477, 1037);
+            this.CurDiceTurn.Name = "CurDiceTurn";
+            this.CurDiceTurn.Size = new System.Drawing.Size(100, 23);
+            this.CurDiceTurn.TabIndex = 82;
+            this.CurDiceTurn.Text = "현재 턴:";
+            // 
+            // P1_CurMoney
+            // 
+            this.P1_CurMoney.AutoSize = true;
+            this.P1_CurMoney.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.P1_CurMoney.ForeColor = System.Drawing.Color.Red;
+            this.P1_CurMoney.Location = new System.Drawing.Point(516, 303);
+            this.P1_CurMoney.Name = "P1_CurMoney";
+            this.P1_CurMoney.Size = new System.Drawing.Size(80, 25);
+            this.P1_CurMoney.TabIndex = 83;
+            this.P1_CurMoney.Text = "Player1:";
+            // 
+            // P3_CurMoney
+            // 
+            this.P3_CurMoney.AutoSize = true;
+            this.P3_CurMoney.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.P3_CurMoney.ForeColor = System.Drawing.Color.Yellow;
+            this.P3_CurMoney.Location = new System.Drawing.Point(516, 402);
+            this.P3_CurMoney.Name = "P3_CurMoney";
+            this.P3_CurMoney.Size = new System.Drawing.Size(80, 25);
+            this.P3_CurMoney.TabIndex = 84;
+            this.P3_CurMoney.Text = "Player3:";
+            // 
+            // P2_CurMoney
+            // 
+            this.P2_CurMoney.AutoSize = true;
+            this.P2_CurMoney.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.P2_CurMoney.ForeColor = System.Drawing.Color.Blue;
+            this.P2_CurMoney.Location = new System.Drawing.Point(516, 347);
+            this.P2_CurMoney.Name = "P2_CurMoney";
+            this.P2_CurMoney.Size = new System.Drawing.Size(80, 25);
+            this.P2_CurMoney.TabIndex = 85;
+            this.P2_CurMoney.Text = "Player2:";
+            // 
+            // P4_CurMoney
+            // 
+            this.P4_CurMoney.AutoSize = true;
+            this.P4_CurMoney.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.P4_CurMoney.ForeColor = System.Drawing.Color.Green;
+            this.P4_CurMoney.Location = new System.Drawing.Point(516, 473);
+            this.P4_CurMoney.Name = "P4_CurMoney";
+            this.P4_CurMoney.Size = new System.Drawing.Size(80, 25);
+            this.P4_CurMoney.TabIndex = 86;
+            this.P4_CurMoney.Text = "Player4:";
+            // 
+            // P1_CurAsset
+            // 
+            this.P1_CurAsset.Location = new System.Drawing.Point(856, 292);
+            this.P1_CurAsset.Name = "P1_CurAsset";
+            this.P1_CurAsset.Size = new System.Drawing.Size(97, 52);
+            this.P1_CurAsset.TabIndex = 87;
+            this.P1_CurAsset.Text = "1P 자산 보유 현황";
+            this.P1_CurAsset.UseVisualStyleBackColor = true;
+            this.P1_CurAsset.Click += new System.EventHandler(this.P1_CurAsset_Click);
+            // 
+            // P4_CurAsset
+            // 
+            this.P4_CurAsset.Location = new System.Drawing.Point(856, 547);
+            this.P4_CurAsset.Name = "P4_CurAsset";
+            this.P4_CurAsset.Size = new System.Drawing.Size(97, 52);
+            this.P4_CurAsset.TabIndex = 88;
+            this.P4_CurAsset.Text = "4P 자산 보유 현황";
+            this.P4_CurAsset.UseVisualStyleBackColor = true;
+            this.P4_CurAsset.Click += new System.EventHandler(this.P4_CurAsset_Click);
+            // 
+            // P3_CurAsset
+            // 
+            this.P3_CurAsset.Location = new System.Drawing.Point(856, 462);
+            this.P3_CurAsset.Name = "P3_CurAsset";
+            this.P3_CurAsset.Size = new System.Drawing.Size(97, 52);
+            this.P3_CurAsset.TabIndex = 89;
+            this.P3_CurAsset.Text = "3P 자산 보유 현황";
+            this.P3_CurAsset.UseVisualStyleBackColor = true;
+            this.P3_CurAsset.Click += new System.EventHandler(this.P3_CurAsset_Click);
+            // 
+            // P2_CurAsset
+            // 
+            this.P2_CurAsset.Location = new System.Drawing.Point(856, 375);
+            this.P2_CurAsset.Name = "P2_CurAsset";
+            this.P2_CurAsset.Size = new System.Drawing.Size(97, 52);
+            this.P2_CurAsset.TabIndex = 90;
+            this.P2_CurAsset.Text = "2P 자산 보유 현황";
+            this.P2_CurAsset.UseVisualStyleBackColor = true;
+            this.P2_CurAsset.Click += new System.EventHandler(this.P2_CurAsset_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "1.jpg");
+            this.imageList1.Images.SetKeyName(1, "2.jpg");
+            this.imageList1.Images.SetKeyName(2, "3.jpg");
+            this.imageList1.Images.SetKeyName(3, "4.jpg");
+            this.imageList1.Images.SetKeyName(4, "5.jpg");
+            this.imageList1.Images.SetKeyName(5, "6.jpg");
+            // 
+            // lbdice1
+            // 
+            this.lbdice1.AutoSize = true;
+            this.lbdice1.Location = new System.Drawing.Point(1519, 175);
+            this.lbdice1.Name = "lbdice1";
+            this.lbdice1.Size = new System.Drawing.Size(54, 18);
+            this.lbdice1.TabIndex = 91;
+            this.lbdice1.Text = "label1";
+            // 
+            // lbdice2
+            // 
+            this.lbdice2.AutoSize = true;
+            this.lbdice2.Location = new System.Drawing.Point(1519, 193);
+            this.lbdice2.Name = "lbdice2";
+            this.lbdice2.Size = new System.Drawing.Size(54, 18);
+            this.lbdice2.TabIndex = 92;
+            this.lbdice2.Text = "label1";
             // 
             // MainBoard
             // 
@@ -952,8 +1110,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(2138, 1384);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.lbdice2);
+            this.Controls.Add(this.lbdice1);
+            this.Controls.Add(this.P2_CurAsset);
+            this.Controls.Add(this.P3_CurAsset);
+            this.Controls.Add(this.P4_CurAsset);
+            this.Controls.Add(this.P1_CurAsset);
+            this.Controls.Add(this.P4_CurMoney);
+            this.Controls.Add(this.P2_CurMoney);
+            this.Controls.Add(this.P3_CurMoney);
+            this.Controls.Add(this.P1_CurMoney);
+            this.Controls.Add(this.CurDiceTurn);
+            this.Controls.Add(this.P4_Location_2);
+            this.Controls.Add(this.P3_Location_2);
             this.Controls.Add(this.P2_Location_2);
             this.Controls.Add(this.P1_Location_2);
             this.Controls.Add(this.P3_Location_1);
@@ -1025,7 +1194,6 @@
             this.Name = "MainBoard";
             this.Text = "MainBoard";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainBoard_FormClosing);
-            this.Load += new System.EventHandler(this.MainBoard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Area1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Area2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Area3)).EndInit();
@@ -1092,9 +1260,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.P3_Location_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P1_Location_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P2_Location_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_Location_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_Location_2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1167,7 +1336,22 @@
         private System.Windows.Forms.PictureBox P3_Location_1;
         private System.Windows.Forms.PictureBox P1_Location_2;
         private System.Windows.Forms.PictureBox P2_Location_2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox P3_Location_2;
+        private System.Windows.Forms.PictureBox P4_Location_2;
+        private System.Windows.Forms.Label CurDiceTurn;
+        private System.Windows.Forms.Label P1_CurMoney;
+        private System.Windows.Forms.Label P3_CurMoney;
+        private System.Windows.Forms.Label P2_CurMoney;
+        private System.Windows.Forms.Label P4_CurMoney;
+        private System.Windows.Forms.Button P1_CurAsset;
+        private System.Windows.Forms.Button P4_CurAsset;
+        private System.Windows.Forms.Button P3_CurAsset;
+        private System.Windows.Forms.Button P2_CurAsset;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Label lbdice1;
+        private System.Windows.Forms.Label lbdice2;
     }
 }
