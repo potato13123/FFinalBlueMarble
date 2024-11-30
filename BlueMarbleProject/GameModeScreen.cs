@@ -24,6 +24,11 @@ namespace BlueMarbleProject
 
         private void SelectTeam_RadioBtn_CheckedChanged(object sender, EventArgs e)
         {
+            if (SelectTeam_RadioBtn.Checked) // 만약 팀버튼 체크 시
+                SelectTeam_RadioBtn.Image = Properties.Resources.Team_Checked; // 눌린 이미지 표시
+            else
+                SelectTeam_RadioBtn.Image = Properties.Resources.Team; // 아니면 기본 이미지 출력
+
             P2_RadioBtn.Enabled = false; // 팀전을 선택할 시 2, 3인은 선택 불가 
             P3_RadioBtn.Enabled = false;
             P2_RadioBtn.Checked = false; // 자동 체크 해제(2인 선택 후 팀 모드로 바꿔버리면 그대로 체크됨 방지)
@@ -32,6 +37,11 @@ namespace BlueMarbleProject
 
         private void SelectSolo_RadioBtn_CheckedChanged(object sender, EventArgs e)
         {
+            if (SelectSolo_RadioBtn.Checked) // 위와 동일
+                SelectSolo_RadioBtn.Image = Properties.Resources.Solo_Checked;
+            else 
+                SelectSolo_RadioBtn.Image = Properties.Resources.Solo;
+            
             P2_RadioBtn.Enabled = true; // 유동적으로 선택가능
             P3_RadioBtn.Enabled = true;
         }

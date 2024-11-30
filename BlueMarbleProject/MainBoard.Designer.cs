@@ -181,9 +181,10 @@
             // 
             this.Area1.BackColor = System.Drawing.Color.Lime;
             this.Area1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area1.Location = new System.Drawing.Point(0, 816);
+            this.Area1.Location = new System.Drawing.Point(0, 1224);
+            this.Area1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area1.Name = "Area1";
-            this.Area1.Size = new System.Drawing.Size(176, 176);
+            this.Area1.Size = new System.Drawing.Size(251, 263);
             this.Area1.TabIndex = 0;
             this.Area1.TabStop = false;
             // 
@@ -191,9 +192,10 @@
             // 
             this.Area2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area2.Location = new System.Drawing.Point(176, 854);
+            this.Area2.Location = new System.Drawing.Point(251, 1281);
+            this.Area2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area2.Name = "Area2";
-            this.Area2.Size = new System.Drawing.Size(81, 138);
+            this.Area2.Size = new System.Drawing.Size(115, 206);
             this.Area2.TabIndex = 1;
             this.Area2.TabStop = false;
             // 
@@ -201,9 +203,10 @@
             // 
             this.Area3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area3.Location = new System.Drawing.Point(257, 854);
+            this.Area3.Location = new System.Drawing.Point(367, 1281);
+            this.Area3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area3.Name = "Area3";
-            this.Area3.Size = new System.Drawing.Size(81, 138);
+            this.Area3.Size = new System.Drawing.Size(115, 206);
             this.Area3.TabIndex = 2;
             this.Area3.TabStop = false;
             // 
@@ -211,9 +214,10 @@
             // 
             this.Area4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area4.Location = new System.Drawing.Point(338, 854);
+            this.Area4.Location = new System.Drawing.Point(483, 1281);
+            this.Area4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area4.Name = "Area4";
-            this.Area4.Size = new System.Drawing.Size(81, 138);
+            this.Area4.Size = new System.Drawing.Size(115, 206);
             this.Area4.TabIndex = 3;
             this.Area4.TabStop = false;
             // 
@@ -221,9 +225,10 @@
             // 
             this.Area5.BackColor = System.Drawing.Color.Aqua;
             this.Area5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area5.Location = new System.Drawing.Point(419, 816);
+            this.Area5.Location = new System.Drawing.Point(599, 1224);
+            this.Area5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area5.Name = "Area5";
-            this.Area5.Size = new System.Drawing.Size(81, 176);
+            this.Area5.Size = new System.Drawing.Size(115, 263);
             this.Area5.TabIndex = 4;
             this.Area5.TabStop = false;
             // 
@@ -231,9 +236,10 @@
             // 
             this.Area6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area6.Location = new System.Drawing.Point(500, 854);
+            this.Area6.Location = new System.Drawing.Point(714, 1281);
+            this.Area6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area6.Name = "Area6";
-            this.Area6.Size = new System.Drawing.Size(81, 138);
+            this.Area6.Size = new System.Drawing.Size(115, 206);
             this.Area6.TabIndex = 5;
             this.Area6.TabStop = false;
             // 
@@ -241,9 +247,10 @@
             // 
             this.Area7.BackColor = System.Drawing.Color.Yellow;
             this.Area7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area7.Location = new System.Drawing.Point(581, 816);
+            this.Area7.Location = new System.Drawing.Point(830, 1224);
+            this.Area7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area7.Name = "Area7";
-            this.Area7.Size = new System.Drawing.Size(81, 176);
+            this.Area7.Size = new System.Drawing.Size(115, 263);
             this.Area7.TabIndex = 6;
             this.Area7.TabStop = false;
             // 
@@ -251,9 +258,10 @@
             // 
             this.Area8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area8.Location = new System.Drawing.Point(662, 854);
+            this.Area8.Location = new System.Drawing.Point(946, 1281);
+            this.Area8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area8.Name = "Area8";
-            this.Area8.Size = new System.Drawing.Size(81, 138);
+            this.Area8.Size = new System.Drawing.Size(115, 206);
             this.Area8.TabIndex = 7;
             this.Area8.TabStop = false;
             // 
@@ -261,9 +269,10 @@
             // 
             this.Area9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area9.Location = new System.Drawing.Point(743, 854);
+            this.Area9.Location = new System.Drawing.Point(1061, 1281);
+            this.Area9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area9.Name = "Area9";
-            this.Area9.Size = new System.Drawing.Size(81, 138);
+            this.Area9.Size = new System.Drawing.Size(115, 206);
             this.Area9.TabIndex = 8;
             this.Area9.TabStop = false;
             // 
@@ -271,9 +280,10 @@
             // 
             this.Area10.BackColor = System.Drawing.Color.Blue;
             this.Area10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area10.Location = new System.Drawing.Point(824, 816);
+            this.Area10.Location = new System.Drawing.Point(1177, 1224);
+            this.Area10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area10.Name = "Area10";
-            this.Area10.Size = new System.Drawing.Size(176, 176);
+            this.Area10.Size = new System.Drawing.Size(251, 263);
             this.Area10.TabIndex = 9;
             this.Area10.TabStop = false;
             // 
@@ -281,9 +291,10 @@
             // 
             this.Area19.BackColor = System.Drawing.Color.Lime;
             this.Area19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area19.Location = new System.Drawing.Point(824, 0);
+            this.Area19.Location = new System.Drawing.Point(1177, 0);
+            this.Area19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area19.Name = "Area19";
-            this.Area19.Size = new System.Drawing.Size(176, 176);
+            this.Area19.Size = new System.Drawing.Size(251, 263);
             this.Area19.TabIndex = 19;
             this.Area19.TabStop = false;
             // 
@@ -291,9 +302,10 @@
             // 
             this.Area20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area20.Location = new System.Drawing.Point(743, 0);
+            this.Area20.Location = new System.Drawing.Point(1061, 0);
+            this.Area20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area20.Name = "Area20";
-            this.Area20.Size = new System.Drawing.Size(81, 138);
+            this.Area20.Size = new System.Drawing.Size(115, 206);
             this.Area20.TabIndex = 18;
             this.Area20.TabStop = false;
             // 
@@ -301,9 +313,10 @@
             // 
             this.Area21.BackColor = System.Drawing.Color.Yellow;
             this.Area21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area21.Location = new System.Drawing.Point(662, 0);
+            this.Area21.Location = new System.Drawing.Point(946, 0);
+            this.Area21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area21.Name = "Area21";
-            this.Area21.Size = new System.Drawing.Size(81, 176);
+            this.Area21.Size = new System.Drawing.Size(115, 263);
             this.Area21.TabIndex = 17;
             this.Area21.TabStop = false;
             // 
@@ -311,9 +324,10 @@
             // 
             this.Area22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area22.Location = new System.Drawing.Point(581, 0);
+            this.Area22.Location = new System.Drawing.Point(830, 0);
+            this.Area22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area22.Name = "Area22";
-            this.Area22.Size = new System.Drawing.Size(81, 138);
+            this.Area22.Size = new System.Drawing.Size(115, 206);
             this.Area22.TabIndex = 16;
             this.Area22.TabStop = false;
             // 
@@ -321,9 +335,10 @@
             // 
             this.Area23.BackColor = System.Drawing.Color.Aqua;
             this.Area23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area23.Location = new System.Drawing.Point(500, 0);
+            this.Area23.Location = new System.Drawing.Point(714, 0);
+            this.Area23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area23.Name = "Area23";
-            this.Area23.Size = new System.Drawing.Size(81, 176);
+            this.Area23.Size = new System.Drawing.Size(115, 263);
             this.Area23.TabIndex = 15;
             this.Area23.TabStop = false;
             // 
@@ -332,9 +347,10 @@
             this.Area24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area24.ErrorImage = null;
-            this.Area24.Location = new System.Drawing.Point(419, 0);
+            this.Area24.Location = new System.Drawing.Point(599, 0);
+            this.Area24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area24.Name = "Area24";
-            this.Area24.Size = new System.Drawing.Size(81, 138);
+            this.Area24.Size = new System.Drawing.Size(115, 206);
             this.Area24.TabIndex = 14;
             this.Area24.TabStop = false;
             // 
@@ -342,9 +358,10 @@
             // 
             this.Area25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area25.Location = new System.Drawing.Point(338, 0);
+            this.Area25.Location = new System.Drawing.Point(483, 0);
+            this.Area25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area25.Name = "Area25";
-            this.Area25.Size = new System.Drawing.Size(81, 138);
+            this.Area25.Size = new System.Drawing.Size(115, 206);
             this.Area25.TabIndex = 13;
             this.Area25.TabStop = false;
             // 
@@ -352,9 +369,10 @@
             // 
             this.Area26.BackColor = System.Drawing.Color.Aqua;
             this.Area26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area26.Location = new System.Drawing.Point(257, 0);
+            this.Area26.Location = new System.Drawing.Point(367, 0);
+            this.Area26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area26.Name = "Area26";
-            this.Area26.Size = new System.Drawing.Size(81, 176);
+            this.Area26.Size = new System.Drawing.Size(115, 263);
             this.Area26.TabIndex = 12;
             this.Area26.TabStop = false;
             // 
@@ -362,9 +380,10 @@
             // 
             this.Area27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area27.Location = new System.Drawing.Point(176, 0);
+            this.Area27.Location = new System.Drawing.Point(251, 0);
+            this.Area27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area27.Name = "Area27";
-            this.Area27.Size = new System.Drawing.Size(81, 138);
+            this.Area27.Size = new System.Drawing.Size(115, 206);
             this.Area27.TabIndex = 11;
             this.Area27.TabStop = false;
             // 
@@ -373,8 +392,9 @@
             this.Area28.BackColor = System.Drawing.Color.Navy;
             this.Area28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Area28.Location = new System.Drawing.Point(0, 0);
+            this.Area28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area28.Name = "Area28";
-            this.Area28.Size = new System.Drawing.Size(176, 176);
+            this.Area28.Size = new System.Drawing.Size(251, 263);
             this.Area28.TabIndex = 10;
             this.Area28.TabStop = false;
             // 
@@ -382,9 +402,10 @@
             // 
             this.Area18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area18.Location = new System.Drawing.Point(862, 176);
+            this.Area18.Location = new System.Drawing.Point(1231, 264);
+            this.Area18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area18.Name = "Area18";
-            this.Area18.Size = new System.Drawing.Size(138, 80);
+            this.Area18.Size = new System.Drawing.Size(196, 119);
             this.Area18.TabIndex = 27;
             this.Area18.TabStop = false;
             // 
@@ -392,9 +413,10 @@
             // 
             this.Area17.BackColor = System.Drawing.Color.Yellow;
             this.Area17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area17.Location = new System.Drawing.Point(824, 256);
+            this.Area17.Location = new System.Drawing.Point(1177, 384);
+            this.Area17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area17.Name = "Area17";
-            this.Area17.Size = new System.Drawing.Size(176, 80);
+            this.Area17.Size = new System.Drawing.Size(251, 119);
             this.Area17.TabIndex = 26;
             this.Area17.TabStop = false;
             // 
@@ -402,9 +424,10 @@
             // 
             this.Area16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area16.Location = new System.Drawing.Point(862, 336);
+            this.Area16.Location = new System.Drawing.Point(1231, 504);
+            this.Area16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area16.Name = "Area16";
-            this.Area16.Size = new System.Drawing.Size(138, 80);
+            this.Area16.Size = new System.Drawing.Size(196, 119);
             this.Area16.TabIndex = 25;
             this.Area16.TabStop = false;
             // 
@@ -412,9 +435,10 @@
             // 
             this.Area15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area15.Location = new System.Drawing.Point(862, 416);
+            this.Area15.Location = new System.Drawing.Point(1231, 624);
+            this.Area15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area15.Name = "Area15";
-            this.Area15.Size = new System.Drawing.Size(138, 80);
+            this.Area15.Size = new System.Drawing.Size(196, 119);
             this.Area15.TabIndex = 24;
             this.Area15.TabStop = false;
             // 
@@ -422,9 +446,10 @@
             // 
             this.Area14.BackColor = System.Drawing.Color.Aqua;
             this.Area14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area14.Location = new System.Drawing.Point(824, 496);
+            this.Area14.Location = new System.Drawing.Point(1177, 744);
+            this.Area14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area14.Name = "Area14";
-            this.Area14.Size = new System.Drawing.Size(176, 80);
+            this.Area14.Size = new System.Drawing.Size(251, 119);
             this.Area14.TabIndex = 23;
             this.Area14.TabStop = false;
             // 
@@ -432,9 +457,10 @@
             // 
             this.Area13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area13.Location = new System.Drawing.Point(862, 576);
+            this.Area13.Location = new System.Drawing.Point(1231, 864);
+            this.Area13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area13.Name = "Area13";
-            this.Area13.Size = new System.Drawing.Size(138, 80);
+            this.Area13.Size = new System.Drawing.Size(196, 119);
             this.Area13.TabIndex = 22;
             this.Area13.TabStop = false;
             // 
@@ -442,9 +468,10 @@
             // 
             this.Area12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area12.Location = new System.Drawing.Point(862, 656);
+            this.Area12.Location = new System.Drawing.Point(1231, 984);
+            this.Area12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area12.Name = "Area12";
-            this.Area12.Size = new System.Drawing.Size(138, 80);
+            this.Area12.Size = new System.Drawing.Size(196, 119);
             this.Area12.TabIndex = 21;
             this.Area12.TabStop = false;
             // 
@@ -452,9 +479,10 @@
             // 
             this.Area11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area11.Location = new System.Drawing.Point(862, 736);
+            this.Area11.Location = new System.Drawing.Point(1231, 1104);
+            this.Area11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area11.Name = "Area11";
-            this.Area11.Size = new System.Drawing.Size(138, 81);
+            this.Area11.Size = new System.Drawing.Size(196, 120);
             this.Area11.TabIndex = 20;
             this.Area11.TabStop = false;
             // 
@@ -462,9 +490,10 @@
             // 
             this.Area29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area29.Location = new System.Drawing.Point(0, 176);
+            this.Area29.Location = new System.Drawing.Point(0, 264);
+            this.Area29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area29.Name = "Area29";
-            this.Area29.Size = new System.Drawing.Size(138, 80);
+            this.Area29.Size = new System.Drawing.Size(196, 119);
             this.Area29.TabIndex = 35;
             this.Area29.TabStop = false;
             // 
@@ -472,9 +501,10 @@
             // 
             this.Area30.BackColor = System.Drawing.Color.Aqua;
             this.Area30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area30.Location = new System.Drawing.Point(0, 256);
+            this.Area30.Location = new System.Drawing.Point(0, 384);
+            this.Area30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area30.Name = "Area30";
-            this.Area30.Size = new System.Drawing.Size(176, 80);
+            this.Area30.Size = new System.Drawing.Size(251, 119);
             this.Area30.TabIndex = 34;
             this.Area30.TabStop = false;
             // 
@@ -482,9 +512,10 @@
             // 
             this.Area31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area31.Location = new System.Drawing.Point(0, 336);
+            this.Area31.Location = new System.Drawing.Point(0, 504);
+            this.Area31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area31.Name = "Area31";
-            this.Area31.Size = new System.Drawing.Size(138, 80);
+            this.Area31.Size = new System.Drawing.Size(196, 119);
             this.Area31.TabIndex = 33;
             this.Area31.TabStop = false;
             // 
@@ -492,9 +523,10 @@
             // 
             this.Area32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area32.Location = new System.Drawing.Point(0, 416);
+            this.Area32.Location = new System.Drawing.Point(0, 624);
+            this.Area32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area32.Name = "Area32";
-            this.Area32.Size = new System.Drawing.Size(176, 80);
+            this.Area32.Size = new System.Drawing.Size(251, 119);
             this.Area32.TabIndex = 32;
             this.Area32.TabStop = false;
             // 
@@ -502,9 +534,10 @@
             // 
             this.Area33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area33.Location = new System.Drawing.Point(0, 496);
+            this.Area33.Location = new System.Drawing.Point(0, 744);
+            this.Area33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area33.Name = "Area33";
-            this.Area33.Size = new System.Drawing.Size(138, 80);
+            this.Area33.Size = new System.Drawing.Size(196, 119);
             this.Area33.TabIndex = 31;
             this.Area33.TabStop = false;
             // 
@@ -512,9 +545,10 @@
             // 
             this.Area34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Area34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area34.Location = new System.Drawing.Point(0, 576);
+            this.Area34.Location = new System.Drawing.Point(0, 864);
+            this.Area34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area34.Name = "Area34";
-            this.Area34.Size = new System.Drawing.Size(138, 80);
+            this.Area34.Size = new System.Drawing.Size(196, 119);
             this.Area34.TabIndex = 30;
             this.Area34.TabStop = false;
             // 
@@ -522,9 +556,10 @@
             // 
             this.Area35.BackColor = System.Drawing.Color.Lime;
             this.Area35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area35.Location = new System.Drawing.Point(0, 656);
+            this.Area35.Location = new System.Drawing.Point(0, 984);
+            this.Area35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area35.Name = "Area35";
-            this.Area35.Size = new System.Drawing.Size(176, 80);
+            this.Area35.Size = new System.Drawing.Size(251, 119);
             this.Area35.TabIndex = 29;
             this.Area35.TabStop = false;
             // 
@@ -532,9 +567,10 @@
             // 
             this.Area36.BackColor = System.Drawing.Color.Purple;
             this.Area36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Area36.Location = new System.Drawing.Point(0, 736);
+            this.Area36.Location = new System.Drawing.Point(0, 1104);
+            this.Area36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Area36.Name = "Area36";
-            this.Area36.Size = new System.Drawing.Size(176, 80);
+            this.Area36.Size = new System.Drawing.Size(251, 119);
             this.Area36.TabIndex = 28;
             this.Area36.TabStop = false;
             // 
@@ -542,10 +578,9 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.ImageLocation = "";
-            this.pictureBox1.Location = new System.Drawing.Point(350, 416);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(500, 624);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(294, 160);
+            this.pictureBox1.Size = new System.Drawing.Size(420, 240);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
@@ -555,9 +590,10 @@
             this.Taiwan_City.AutoSize = true;
             this.Taiwan_City.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Taiwan_City.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Taiwan_City.Location = new System.Drawing.Point(177, 856);
+            this.Taiwan_City.Location = new System.Drawing.Point(253, 1284);
+            this.Taiwan_City.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Taiwan_City.Name = "Taiwan_City";
-            this.Taiwan_City.Size = new System.Drawing.Size(55, 15);
+            this.Taiwan_City.Size = new System.Drawing.Size(62, 21);
             this.Taiwan_City.TabIndex = 37;
             this.Taiwan_City.Text = "타이페이";
             // 
@@ -565,9 +601,10 @@
             // 
             this.BuildArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.BuildArea1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea1.Location = new System.Drawing.Point(176, 816);
+            this.BuildArea1.Location = new System.Drawing.Point(251, 1224);
+            this.BuildArea1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea1.Name = "BuildArea1";
-            this.BuildArea1.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea1.Size = new System.Drawing.Size(115, 58);
             this.BuildArea1.TabIndex = 40;
             this.BuildArea1.TabStop = false;
             // 
@@ -575,9 +612,10 @@
             // 
             this.BuildArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.BuildArea2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea2.Location = new System.Drawing.Point(257, 816);
+            this.BuildArea2.Location = new System.Drawing.Point(367, 1224);
+            this.BuildArea2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea2.Name = "BuildArea2";
-            this.BuildArea2.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea2.Size = new System.Drawing.Size(115, 58);
             this.BuildArea2.TabIndex = 41;
             this.BuildArea2.TabStop = false;
             // 
@@ -585,9 +623,10 @@
             // 
             this.BuildArea3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.BuildArea3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea3.Location = new System.Drawing.Point(338, 816);
+            this.BuildArea3.Location = new System.Drawing.Point(483, 1224);
+            this.BuildArea3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea3.Name = "BuildArea3";
-            this.BuildArea3.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea3.Size = new System.Drawing.Size(115, 58);
             this.BuildArea3.TabIndex = 42;
             this.BuildArea3.TabStop = false;
             // 
@@ -595,9 +634,10 @@
             // 
             this.BuildArea5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.BuildArea5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea5.Location = new System.Drawing.Point(662, 816);
+            this.BuildArea5.Location = new System.Drawing.Point(946, 1224);
+            this.BuildArea5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea5.Name = "BuildArea5";
-            this.BuildArea5.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea5.Size = new System.Drawing.Size(115, 58);
             this.BuildArea5.TabIndex = 43;
             this.BuildArea5.TabStop = false;
             // 
@@ -605,9 +645,10 @@
             // 
             this.BuildArea6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.BuildArea6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea6.Location = new System.Drawing.Point(743, 816);
+            this.BuildArea6.Location = new System.Drawing.Point(1061, 1224);
+            this.BuildArea6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea6.Name = "BuildArea6";
-            this.BuildArea6.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea6.Size = new System.Drawing.Size(115, 58);
             this.BuildArea6.TabIndex = 44;
             this.BuildArea6.TabStop = false;
             // 
@@ -615,9 +656,10 @@
             // 
             this.BuildArea4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.BuildArea4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea4.Location = new System.Drawing.Point(500, 816);
+            this.BuildArea4.Location = new System.Drawing.Point(714, 1224);
+            this.BuildArea4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea4.Name = "BuildArea4";
-            this.BuildArea4.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea4.Size = new System.Drawing.Size(115, 58);
             this.BuildArea4.TabIndex = 45;
             this.BuildArea4.TabStop = false;
             // 
@@ -625,9 +667,10 @@
             // 
             this.BuildArea7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BuildArea7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea7.Location = new System.Drawing.Point(824, 736);
+            this.BuildArea7.Location = new System.Drawing.Point(1177, 1104);
+            this.BuildArea7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea7.Name = "BuildArea7";
-            this.BuildArea7.Size = new System.Drawing.Size(39, 81);
+            this.BuildArea7.Size = new System.Drawing.Size(55, 120);
             this.BuildArea7.TabIndex = 46;
             this.BuildArea7.TabStop = false;
             // 
@@ -635,9 +678,10 @@
             // 
             this.BuildArea8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BuildArea8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea8.Location = new System.Drawing.Point(824, 656);
+            this.BuildArea8.Location = new System.Drawing.Point(1177, 984);
+            this.BuildArea8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea8.Name = "BuildArea8";
-            this.BuildArea8.Size = new System.Drawing.Size(39, 80);
+            this.BuildArea8.Size = new System.Drawing.Size(55, 119);
             this.BuildArea8.TabIndex = 47;
             this.BuildArea8.TabStop = false;
             // 
@@ -645,9 +689,10 @@
             // 
             this.BuildArea11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BuildArea11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea11.Location = new System.Drawing.Point(824, 336);
+            this.BuildArea11.Location = new System.Drawing.Point(1177, 504);
+            this.BuildArea11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea11.Name = "BuildArea11";
-            this.BuildArea11.Size = new System.Drawing.Size(39, 80);
+            this.BuildArea11.Size = new System.Drawing.Size(55, 119);
             this.BuildArea11.TabIndex = 49;
             this.BuildArea11.TabStop = false;
             // 
@@ -655,9 +700,10 @@
             // 
             this.BuildArea12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BuildArea12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea12.Location = new System.Drawing.Point(824, 176);
+            this.BuildArea12.Location = new System.Drawing.Point(1177, 264);
+            this.BuildArea12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea12.Name = "BuildArea12";
-            this.BuildArea12.Size = new System.Drawing.Size(39, 80);
+            this.BuildArea12.Size = new System.Drawing.Size(55, 119);
             this.BuildArea12.TabIndex = 50;
             this.BuildArea12.TabStop = false;
             // 
@@ -665,9 +711,10 @@
             // 
             this.BuildArea10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BuildArea10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea10.Location = new System.Drawing.Point(824, 416);
+            this.BuildArea10.Location = new System.Drawing.Point(1177, 624);
+            this.BuildArea10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea10.Name = "BuildArea10";
-            this.BuildArea10.Size = new System.Drawing.Size(39, 80);
+            this.BuildArea10.Size = new System.Drawing.Size(55, 119);
             this.BuildArea10.TabIndex = 51;
             this.BuildArea10.TabStop = false;
             // 
@@ -675,9 +722,10 @@
             // 
             this.BuildArea9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BuildArea9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea9.Location = new System.Drawing.Point(824, 576);
+            this.BuildArea9.Location = new System.Drawing.Point(1177, 864);
+            this.BuildArea9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea9.Name = "BuildArea9";
-            this.BuildArea9.Size = new System.Drawing.Size(39, 80);
+            this.BuildArea9.Size = new System.Drawing.Size(55, 119);
             this.BuildArea9.TabIndex = 52;
             this.BuildArea9.TabStop = false;
             // 
@@ -685,9 +733,10 @@
             // 
             this.BuildArea13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BuildArea13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea13.Location = new System.Drawing.Point(743, 137);
+            this.BuildArea13.Location = new System.Drawing.Point(1061, 205);
+            this.BuildArea13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea13.Name = "BuildArea13";
-            this.BuildArea13.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea13.Size = new System.Drawing.Size(115, 58);
             this.BuildArea13.TabIndex = 53;
             this.BuildArea13.TabStop = false;
             // 
@@ -695,9 +744,10 @@
             // 
             this.BuildArea14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BuildArea14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea14.Location = new System.Drawing.Point(581, 137);
+            this.BuildArea14.Location = new System.Drawing.Point(830, 206);
+            this.BuildArea14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea14.Name = "BuildArea14";
-            this.BuildArea14.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea14.Size = new System.Drawing.Size(115, 58);
             this.BuildArea14.TabIndex = 54;
             this.BuildArea14.TabStop = false;
             // 
@@ -705,9 +755,10 @@
             // 
             this.BuildArea15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BuildArea15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea15.Location = new System.Drawing.Point(419, 137);
+            this.BuildArea15.Location = new System.Drawing.Point(599, 206);
+            this.BuildArea15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea15.Name = "BuildArea15";
-            this.BuildArea15.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea15.Size = new System.Drawing.Size(115, 58);
             this.BuildArea15.TabIndex = 55;
             this.BuildArea15.TabStop = false;
             // 
@@ -715,9 +766,10 @@
             // 
             this.BuildArea16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BuildArea16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea16.Location = new System.Drawing.Point(338, 137);
+            this.BuildArea16.Location = new System.Drawing.Point(483, 206);
+            this.BuildArea16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea16.Name = "BuildArea16";
-            this.BuildArea16.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea16.Size = new System.Drawing.Size(115, 58);
             this.BuildArea16.TabIndex = 56;
             this.BuildArea16.TabStop = false;
             // 
@@ -725,9 +777,10 @@
             // 
             this.BuildArea17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BuildArea17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea17.Location = new System.Drawing.Point(176, 137);
+            this.BuildArea17.Location = new System.Drawing.Point(251, 206);
+            this.BuildArea17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea17.Name = "BuildArea17";
-            this.BuildArea17.Size = new System.Drawing.Size(81, 39);
+            this.BuildArea17.Size = new System.Drawing.Size(115, 58);
             this.BuildArea17.TabIndex = 57;
             this.BuildArea17.TabStop = false;
             // 
@@ -735,9 +788,10 @@
             // 
             this.BuildArea18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BuildArea18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea18.Location = new System.Drawing.Point(137, 176);
+            this.BuildArea18.Location = new System.Drawing.Point(196, 264);
+            this.BuildArea18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea18.Name = "BuildArea18";
-            this.BuildArea18.Size = new System.Drawing.Size(39, 80);
+            this.BuildArea18.Size = new System.Drawing.Size(55, 119);
             this.BuildArea18.TabIndex = 58;
             this.BuildArea18.TabStop = false;
             // 
@@ -745,9 +799,10 @@
             // 
             this.BuildArea19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BuildArea19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea19.Location = new System.Drawing.Point(137, 336);
+            this.BuildArea19.Location = new System.Drawing.Point(196, 504);
+            this.BuildArea19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea19.Name = "BuildArea19";
-            this.BuildArea19.Size = new System.Drawing.Size(39, 80);
+            this.BuildArea19.Size = new System.Drawing.Size(55, 119);
             this.BuildArea19.TabIndex = 59;
             this.BuildArea19.TabStop = false;
             // 
@@ -755,9 +810,10 @@
             // 
             this.BuildArea20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BuildArea20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea20.Location = new System.Drawing.Point(137, 496);
+            this.BuildArea20.Location = new System.Drawing.Point(196, 744);
+            this.BuildArea20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea20.Name = "BuildArea20";
-            this.BuildArea20.Size = new System.Drawing.Size(39, 80);
+            this.BuildArea20.Size = new System.Drawing.Size(55, 119);
             this.BuildArea20.TabIndex = 60;
             this.BuildArea20.TabStop = false;
             // 
@@ -765,9 +821,10 @@
             // 
             this.BuildArea21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BuildArea21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BuildArea21.Location = new System.Drawing.Point(137, 576);
+            this.BuildArea21.Location = new System.Drawing.Point(196, 864);
+            this.BuildArea21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuildArea21.Name = "BuildArea21";
-            this.BuildArea21.Size = new System.Drawing.Size(39, 80);
+            this.BuildArea21.Size = new System.Drawing.Size(55, 119);
             this.BuildArea21.TabIndex = 61;
             this.BuildArea21.TabStop = false;
             // 
@@ -776,9 +833,10 @@
             this.China_City.AutoSize = true;
             this.China_City.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.China_City.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.China_City.Location = new System.Drawing.Point(259, 856);
+            this.China_City.Location = new System.Drawing.Point(370, 1284);
+            this.China_City.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.China_City.Name = "China_City";
-            this.China_City.Size = new System.Drawing.Size(43, 15);
+            this.China_City.Size = new System.Drawing.Size(49, 21);
             this.China_City.TabIndex = 62;
             this.China_City.Text = "베이징";
             // 
@@ -786,9 +844,10 @@
             // 
             this.Dice_Btn.BackColor = System.Drawing.Color.Fuchsia;
             this.Dice_Btn.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dice_Btn.Location = new System.Drawing.Point(466, 670);
+            this.Dice_Btn.Location = new System.Drawing.Point(666, 1005);
+            this.Dice_Btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Dice_Btn.Name = "Dice_Btn";
-            this.Dice_Btn.Size = new System.Drawing.Size(66, 66);
+            this.Dice_Btn.Size = new System.Drawing.Size(94, 99);
             this.Dice_Btn.TabIndex = 65;
             this.Dice_Btn.Text = "굴리기";
             this.Dice_Btn.UseVisualStyleBackColor = false;
@@ -796,18 +855,20 @@
             // Left_Dice
             // 
             this.Left_Dice.BackColor = System.Drawing.Color.White;
-            this.Left_Dice.Location = new System.Drawing.Point(418, 598);
+            this.Left_Dice.Location = new System.Drawing.Point(597, 897);
+            this.Left_Dice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Left_Dice.Name = "Left_Dice";
-            this.Left_Dice.Size = new System.Drawing.Size(66, 66);
+            this.Left_Dice.Size = new System.Drawing.Size(94, 99);
             this.Left_Dice.TabIndex = 66;
             this.Left_Dice.TabStop = false;
             // 
             // Right_Dice
             // 
             this.Right_Dice.BackColor = System.Drawing.Color.White;
-            this.Right_Dice.Location = new System.Drawing.Point(515, 598);
+            this.Right_Dice.Location = new System.Drawing.Point(736, 897);
+            this.Right_Dice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Right_Dice.Name = "Right_Dice";
-            this.Right_Dice.Size = new System.Drawing.Size(66, 66);
+            this.Right_Dice.Size = new System.Drawing.Size(94, 99);
             this.Right_Dice.TabIndex = 67;
             this.Right_Dice.TabStop = false;
             // 
@@ -816,9 +877,10 @@
             this.P1_Location_1.BackColor = System.Drawing.Color.Lime;
             this.P1_Location_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_1.BackgroundImage")));
             this.P1_Location_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.P1_Location_1.Location = new System.Drawing.Point(10, 934);
+            this.P1_Location_1.Location = new System.Drawing.Point(14, 1401);
+            this.P1_Location_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P1_Location_1.Name = "P1_Location_1";
-            this.P1_Location_1.Size = new System.Drawing.Size(36, 45);
+            this.P1_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P1_Location_1.TabIndex = 68;
             this.P1_Location_1.TabStop = false;
             // 
@@ -827,9 +889,10 @@
             this.P2_Location_1.BackColor = System.Drawing.Color.Lime;
             this.P2_Location_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P2_Location_1.BackgroundImage")));
             this.P2_Location_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.P2_Location_1.Location = new System.Drawing.Point(50, 934);
+            this.P2_Location_1.Location = new System.Drawing.Point(71, 1401);
+            this.P2_Location_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P2_Location_1.Name = "P2_Location_1";
-            this.P2_Location_1.Size = new System.Drawing.Size(36, 45);
+            this.P2_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P2_Location_1.TabIndex = 69;
             this.P2_Location_1.TabStop = false;
             // 
@@ -838,9 +901,10 @@
             this.P4_Location_1.BackColor = System.Drawing.Color.Lime;
             this.P4_Location_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P4_Location_1.BackgroundImage")));
             this.P4_Location_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.P4_Location_1.Location = new System.Drawing.Point(129, 934);
+            this.P4_Location_1.Location = new System.Drawing.Point(184, 1401);
+            this.P4_Location_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P4_Location_1.Name = "P4_Location_1";
-            this.P4_Location_1.Size = new System.Drawing.Size(36, 45);
+            this.P4_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P4_Location_1.TabIndex = 70;
             this.P4_Location_1.TabStop = false;
             // 
@@ -849,9 +913,10 @@
             this.P3_Location_1.BackColor = System.Drawing.Color.Lime;
             this.P3_Location_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P3_Location_1.BackgroundImage")));
             this.P3_Location_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.P3_Location_1.Location = new System.Drawing.Point(89, 934);
+            this.P3_Location_1.Location = new System.Drawing.Point(127, 1401);
+            this.P3_Location_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P3_Location_1.Name = "P3_Location_1";
-            this.P3_Location_1.Size = new System.Drawing.Size(36, 45);
+            this.P3_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P3_Location_1.TabIndex = 71;
             this.P3_Location_1.TabStop = false;
             // 
@@ -859,9 +924,10 @@
             // 
             this.Taiwan_Flag.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Taiwan_Flag.BackgroundImage")));
             this.Taiwan_Flag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Taiwan_Flag.Location = new System.Drawing.Point(235, 857);
+            this.Taiwan_Flag.Location = new System.Drawing.Point(336, 1286);
+            this.Taiwan_Flag.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Taiwan_Flag.Name = "Taiwan_Flag";
-            this.Taiwan_Flag.Size = new System.Drawing.Size(18, 17);
+            this.Taiwan_Flag.Size = new System.Drawing.Size(26, 26);
             this.Taiwan_Flag.TabIndex = 76;
             this.Taiwan_Flag.TabStop = false;
             // 
@@ -870,9 +936,10 @@
             this.P1_Location_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.P1_Location_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_2.BackgroundImage")));
             this.P1_Location_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.P1_Location_2.Location = new System.Drawing.Point(183, 883);
+            this.P1_Location_2.Location = new System.Drawing.Point(261, 1324);
+            this.P1_Location_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P1_Location_2.Name = "P1_Location_2";
-            this.P1_Location_2.Size = new System.Drawing.Size(36, 45);
+            this.P1_Location_2.Size = new System.Drawing.Size(51, 68);
             this.P1_Location_2.TabIndex = 78;
             this.P1_Location_2.TabStop = false;
             // 
@@ -881,9 +948,10 @@
             this.P2_Location_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.P2_Location_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P2_Location_2.BackgroundImage")));
             this.P2_Location_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.P2_Location_2.Location = new System.Drawing.Point(217, 883);
+            this.P2_Location_2.Location = new System.Drawing.Point(310, 1324);
+            this.P2_Location_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P2_Location_2.Name = "P2_Location_2";
-            this.P2_Location_2.Size = new System.Drawing.Size(36, 45);
+            this.P2_Location_2.Size = new System.Drawing.Size(51, 68);
             this.P2_Location_2.TabIndex = 79;
             this.P2_Location_2.TabStop = false;
             // 
@@ -892,9 +960,10 @@
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(183, 934);
+            this.pictureBox2.Location = new System.Drawing.Point(261, 1401);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 45);
+            this.pictureBox2.Size = new System.Drawing.Size(51, 68);
             this.pictureBox2.TabIndex = 80;
             this.pictureBox2.TabStop = false;
             // 
@@ -903,9 +972,10 @@
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(217, 934);
+            this.pictureBox3.Location = new System.Drawing.Point(310, 1401);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(36, 45);
+            this.pictureBox3.Size = new System.Drawing.Size(51, 68);
             this.pictureBox3.TabIndex = 81;
             this.pictureBox3.TabStop = false;
             // 
@@ -913,9 +983,10 @@
             // 
             this.China_Flag.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("China_Flag.BackgroundImage")));
             this.China_Flag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.China_Flag.Location = new System.Drawing.Point(315, 857);
+            this.China_Flag.Location = new System.Drawing.Point(450, 1286);
+            this.China_Flag.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.China_Flag.Name = "China_Flag";
-            this.China_Flag.Size = new System.Drawing.Size(18, 17);
+            this.China_Flag.Size = new System.Drawing.Size(26, 26);
             this.China_Flag.TabIndex = 82;
             this.China_Flag.TabStop = false;
             // 
@@ -924,9 +995,10 @@
             this.Philippines_CIty.AutoSize = true;
             this.Philippines_CIty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Philippines_CIty.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.Philippines_CIty.Location = new System.Drawing.Point(339, 856);
+            this.Philippines_CIty.Location = new System.Drawing.Point(484, 1284);
+            this.Philippines_CIty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Philippines_CIty.Name = "Philippines_CIty";
-            this.Philippines_CIty.Size = new System.Drawing.Size(43, 15);
+            this.Philippines_CIty.Size = new System.Drawing.Size(49, 21);
             this.Philippines_CIty.TabIndex = 83;
             this.Philippines_CIty.Text = "마닐라";
             // 
@@ -934,18 +1006,19 @@
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(396, 857);
+            this.pictureBox4.Location = new System.Drawing.Point(566, 1286);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(18, 17);
+            this.pictureBox4.Size = new System.Drawing.Size(26, 26);
             this.pictureBox4.TabIndex = 84;
             this.pictureBox4.TabStop = false;
             // 
             // MainBoard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(999, 991);
+            this.ClientSize = new System.Drawing.Size(1427, 1410);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.Philippines_CIty);
             this.Controls.Add(this.China_Flag);
@@ -1021,6 +1094,7 @@
             this.Controls.Add(this.Area3);
             this.Controls.Add(this.Area2);
             this.Controls.Add(this.Area1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MainBoard";
             this.Text = "MainBoard";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainBoard_FormClosing);

@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameModeScreen));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.SelectSolo_RadioBtn = new System.Windows.Forms.RadioButton();
-            this.SelectTeam_RadioBtn = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.P4_RadioBtn = new System.Windows.Forms.RadioButton();
             this.P3_RadioBtn = new System.Windows.Forms.RadioButton();
             this.P2_RadioBtn = new System.Windows.Forms.RadioButton();
-            this.P4_RadioBtn = new System.Windows.Forms.RadioButton();
             this.Start_Btn = new System.Windows.Forms.Button();
+            this.SelectTeam_RadioBtn = new System.Windows.Forms.RadioButton();
+            this.SelectSolo_RadioBtn = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -44,107 +45,116 @@
             // 
             this.groupBox1.Controls.Add(this.SelectTeam_RadioBtn);
             this.groupBox1.Controls.Add(this.SelectSolo_RadioBtn);
-            this.groupBox1.Location = new System.Drawing.Point(55, 65);
+            this.groupBox1.Location = new System.Drawing.Point(138, 421);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(559, 168);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(799, 252);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "게임 모드";
-            // 
-            // SelectSolo_RadioBtn
-            // 
-            this.SelectSolo_RadioBtn.AutoSize = true;
-            this.SelectSolo_RadioBtn.Location = new System.Drawing.Point(28, 75);
-            this.SelectSolo_RadioBtn.Name = "SelectSolo_RadioBtn";
-            this.SelectSolo_RadioBtn.Size = new System.Drawing.Size(59, 16);
-            this.SelectSolo_RadioBtn.TabIndex = 0;
-            this.SelectSolo_RadioBtn.TabStop = true;
-            this.SelectSolo_RadioBtn.Text = "개인전";
-            this.SelectSolo_RadioBtn.UseVisualStyleBackColor = true;
-            this.SelectSolo_RadioBtn.CheckedChanged += new System.EventHandler(this.SelectSolo_RadioBtn_CheckedChanged);
-            // 
-            // SelectTeam_RadioBtn
-            // 
-            this.SelectTeam_RadioBtn.AutoSize = true;
-            this.SelectTeam_RadioBtn.Location = new System.Drawing.Point(250, 76);
-            this.SelectTeam_RadioBtn.Name = "SelectTeam_RadioBtn";
-            this.SelectTeam_RadioBtn.Size = new System.Drawing.Size(47, 16);
-            this.SelectTeam_RadioBtn.TabIndex = 1;
-            this.SelectTeam_RadioBtn.TabStop = true;
-            this.SelectTeam_RadioBtn.Text = "팀전";
-            this.SelectTeam_RadioBtn.UseVisualStyleBackColor = true;
-            this.SelectTeam_RadioBtn.CheckedChanged += new System.EventHandler(this.SelectTeam_RadioBtn_CheckedChanged);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.P4_RadioBtn);
             this.groupBox2.Controls.Add(this.P3_RadioBtn);
             this.groupBox2.Controls.Add(this.P2_RadioBtn);
-            this.groupBox2.Location = new System.Drawing.Point(55, 259);
+            this.groupBox2.Location = new System.Drawing.Point(138, 136);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(559, 168);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(799, 254);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "인원수";
             // 
+            // P4_RadioBtn
+            // 
+            this.P4_RadioBtn.Appearance = System.Windows.Forms.Appearance.Button;
+            this.P4_RadioBtn.Image = ((System.Drawing.Image)(resources.GetObject("P4_RadioBtn.Image")));
+            this.P4_RadioBtn.Location = new System.Drawing.Point(558, 73);
+            this.P4_RadioBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_RadioBtn.Name = "P4_RadioBtn";
+            this.P4_RadioBtn.Size = new System.Drawing.Size(166, 100);
+            this.P4_RadioBtn.TabIndex = 2;
+            this.P4_RadioBtn.TabStop = true;
+            this.P4_RadioBtn.UseVisualStyleBackColor = true;
+            // 
             // P3_RadioBtn
             // 
-            this.P3_RadioBtn.AutoSize = true;
-            this.P3_RadioBtn.Location = new System.Drawing.Point(183, 75);
+            this.P3_RadioBtn.Appearance = System.Windows.Forms.Appearance.Button;
+            this.P3_RadioBtn.Image = ((System.Drawing.Image)(resources.GetObject("P3_RadioBtn.Image")));
+            this.P3_RadioBtn.Location = new System.Drawing.Point(332, 73);
+            this.P3_RadioBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P3_RadioBtn.Name = "P3_RadioBtn";
-            this.P3_RadioBtn.Size = new System.Drawing.Size(41, 16);
+            this.P3_RadioBtn.Size = new System.Drawing.Size(116, 94);
             this.P3_RadioBtn.TabIndex = 1;
             this.P3_RadioBtn.TabStop = true;
-            this.P3_RadioBtn.Text = "3인";
             this.P3_RadioBtn.UseVisualStyleBackColor = true;
             // 
             // P2_RadioBtn
             // 
-            this.P2_RadioBtn.AutoSize = true;
-            this.P2_RadioBtn.Location = new System.Drawing.Point(28, 75);
+            this.P2_RadioBtn.Appearance = System.Windows.Forms.Appearance.Button;
+            this.P2_RadioBtn.Image = ((System.Drawing.Image)(resources.GetObject("P2_RadioBtn.Image")));
+            this.P2_RadioBtn.Location = new System.Drawing.Point(128, 73);
+            this.P2_RadioBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P2_RadioBtn.Name = "P2_RadioBtn";
-            this.P2_RadioBtn.Size = new System.Drawing.Size(41, 16);
+            this.P2_RadioBtn.Size = new System.Drawing.Size(81, 94);
             this.P2_RadioBtn.TabIndex = 0;
             this.P2_RadioBtn.TabStop = true;
-            this.P2_RadioBtn.Text = "2인";
             this.P2_RadioBtn.UseVisualStyleBackColor = true;
-            // 
-            // P4_RadioBtn
-            // 
-            this.P4_RadioBtn.AutoSize = true;
-            this.P4_RadioBtn.Location = new System.Drawing.Point(350, 75);
-            this.P4_RadioBtn.Name = "P4_RadioBtn";
-            this.P4_RadioBtn.Size = new System.Drawing.Size(41, 16);
-            this.P4_RadioBtn.TabIndex = 2;
-            this.P4_RadioBtn.TabStop = true;
-            this.P4_RadioBtn.Text = "4인";
-            this.P4_RadioBtn.UseVisualStyleBackColor = true;
             // 
             // Start_Btn
             // 
-            this.Start_Btn.Location = new System.Drawing.Point(266, 537);
+            this.Start_Btn.Location = new System.Drawing.Point(380, 806);
+            this.Start_Btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Start_Btn.Name = "Start_Btn";
-            this.Start_Btn.Size = new System.Drawing.Size(213, 58);
+            this.Start_Btn.Size = new System.Drawing.Size(304, 87);
             this.Start_Btn.TabIndex = 3;
             this.Start_Btn.Text = "선택 완료";
             this.Start_Btn.UseVisualStyleBackColor = true;
             this.Start_Btn.Click += new System.EventHandler(this.Start_Btn_Click);
             // 
+            // SelectTeam_RadioBtn
+            // 
+            this.SelectTeam_RadioBtn.Appearance = System.Windows.Forms.Appearance.Button;
+            this.SelectTeam_RadioBtn.Image = global::BlueMarbleProject.Properties.Resources.Team;
+            this.SelectTeam_RadioBtn.Location = new System.Drawing.Point(493, 116);
+            this.SelectTeam_RadioBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.SelectTeam_RadioBtn.Name = "SelectTeam_RadioBtn";
+            this.SelectTeam_RadioBtn.Size = new System.Drawing.Size(175, 65);
+            this.SelectTeam_RadioBtn.TabIndex = 1;
+            this.SelectTeam_RadioBtn.TabStop = true;
+            this.SelectTeam_RadioBtn.UseVisualStyleBackColor = true;
+            this.SelectTeam_RadioBtn.CheckedChanged += new System.EventHandler(this.SelectTeam_RadioBtn_CheckedChanged);
+            // 
+            // SelectSolo_RadioBtn
+            // 
+            this.SelectSolo_RadioBtn.Appearance = System.Windows.Forms.Appearance.Button;
+            this.SelectSolo_RadioBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.SelectSolo_RadioBtn.Image = global::BlueMarbleProject.Properties.Resources.Solo;
+            this.SelectSolo_RadioBtn.Location = new System.Drawing.Point(128, 114);
+            this.SelectSolo_RadioBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.SelectSolo_RadioBtn.Name = "SelectSolo_RadioBtn";
+            this.SelectSolo_RadioBtn.Size = new System.Drawing.Size(175, 65);
+            this.SelectSolo_RadioBtn.TabIndex = 0;
+            this.SelectSolo_RadioBtn.TabStop = true;
+            this.SelectSolo_RadioBtn.UseVisualStyleBackColor = true;
+            this.SelectSolo_RadioBtn.CheckedChanged += new System.EventHandler(this.SelectSolo_RadioBtn_CheckedChanged);
+            // 
             // GameModeScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(771, 631);
+            this.ClientSize = new System.Drawing.Size(1101, 946);
             this.Controls.Add(this.Start_Btn);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "GameModeScreen";
             this.Text = "GameModeScreen";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GameModeScreen_FormClosing);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
