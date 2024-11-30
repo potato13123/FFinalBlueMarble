@@ -119,5 +119,23 @@
   <ItemGroup>
     <None Include="Resources\Team_Checked.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2P.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2P_Checked.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3P.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3P_Checked.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4P.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4P_Checked.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -68,5 +68,30 @@ namespace BlueMarbleProject
             else
                 MessageBox.Show("게임 모드를 선택해주세요."); // 안 고를 시 띄우는 박스
         }
+
+        private void P2_RadioBtn_CheckedChanged(object sender, EventArgs e)
+        {
+            if (P2_RadioBtn.Checked)
+                P2_RadioBtn.Image = Properties.Resources._2P_Checked;
+            else
+                P2_RadioBtn.Image = Properties.Resources._2P;
+        
+        }
+
+        private void P3_RadioBtn_CheckedChanged(object sender, EventArgs e)
+        {
+            if (P3_RadioBtn.Checked)
+                P3_RadioBtn.Image = Properties.Resources._3P_Checked;
+            else
+                P3_RadioBtn.Image = Properties.Resources._3P;
+        }
+
+        private void P4_RadioBtn_CheckedChanged(object sender, EventArgs e)
+        {
+            if (P4_RadioBtn.Checked)
+                P4_RadioBtn.Image = Properties.Resources._4P_Checked;
+            else
+                P4_RadioBtn.Image = Properties.Resources._4P;
+        }
     }
 }
