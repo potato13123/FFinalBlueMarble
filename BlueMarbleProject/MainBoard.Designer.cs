@@ -142,6 +142,10 @@
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.P1_Location_9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Area1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Area2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Area3)).BeginInit();
@@ -238,6 +242,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P1_Location_9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.SuspendLayout();
             // 
             // Area1
@@ -935,7 +943,7 @@
             // 
             // P1_Location_1
             // 
-            this.P1_Location_1.BackColor = System.Drawing.Color.Lime;
+            this.P1_Location_1.BackColor = System.Drawing.Color.White;
             this.P1_Location_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_1.BackgroundImage")));
             this.P1_Location_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P1_Location_1.Location = new System.Drawing.Point(0, 1303);
@@ -944,10 +952,11 @@
             this.P1_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P1_Location_1.TabIndex = 68;
             this.P1_Location_1.TabStop = false;
+            this.P1_Location_1.Visible = false;
             // 
             // P2_Location_1
             // 
-            this.P2_Location_1.BackColor = System.Drawing.Color.Lime;
+            this.P2_Location_1.BackColor = System.Drawing.Color.White;
             this.P2_Location_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P2_Location_1.BackgroundImage")));
             this.P2_Location_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P2_Location_1.Location = new System.Drawing.Point(59, 1303);
@@ -956,10 +965,11 @@
             this.P2_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P2_Location_1.TabIndex = 69;
             this.P2_Location_1.TabStop = false;
+            this.P2_Location_1.Visible = false;
             // 
             // P4_Location_1
             // 
-            this.P4_Location_1.BackColor = System.Drawing.Color.Lime;
+            this.P4_Location_1.BackColor = System.Drawing.Color.White;
             this.P4_Location_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P4_Location_1.BackgroundImage")));
             this.P4_Location_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P4_Location_1.Location = new System.Drawing.Point(177, 1303);
@@ -968,10 +978,11 @@
             this.P4_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P4_Location_1.TabIndex = 70;
             this.P4_Location_1.TabStop = false;
+            this.P4_Location_1.Visible = false;
             // 
             // P3_Location_1
             // 
-            this.P3_Location_1.BackColor = System.Drawing.Color.Lime;
+            this.P3_Location_1.BackColor = System.Drawing.Color.White;
             this.P3_Location_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P3_Location_1.BackgroundImage")));
             this.P3_Location_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P3_Location_1.Location = new System.Drawing.Point(118, 1303);
@@ -980,10 +991,11 @@
             this.P3_Location_1.Size = new System.Drawing.Size(51, 68);
             this.P3_Location_1.TabIndex = 71;
             this.P3_Location_1.TabStop = false;
+            this.P3_Location_1.Visible = false;
             // 
             // P1_Location_2
             // 
-            this.P1_Location_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P1_Location_2.BackColor = System.Drawing.Color.White;
             this.P1_Location_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_2.BackgroundImage")));
             this.P1_Location_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P1_Location_2.Location = new System.Drawing.Point(239, 1235);
@@ -996,7 +1008,7 @@
             // 
             // P2_Location_2
             // 
-            this.P2_Location_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P2_Location_2.BackColor = System.Drawing.Color.White;
             this.P2_Location_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P2_Location_2.BackgroundImage")));
             this.P2_Location_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P2_Location_2.Location = new System.Drawing.Point(288, 1235);
@@ -1009,7 +1021,7 @@
             // 
             // P3_Location_2
             // 
-            this.P3_Location_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P3_Location_2.BackColor = System.Drawing.Color.White;
             this.P3_Location_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P3_Location_2.BackgroundImage")));
             this.P3_Location_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P3_Location_2.Location = new System.Drawing.Point(239, 1312);
@@ -1022,7 +1034,7 @@
             // 
             // P4_Location_2
             // 
-            this.P4_Location_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P4_Location_2.BackColor = System.Drawing.Color.White;
             this.P4_Location_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P4_Location_2.BackgroundImage")));
             this.P4_Location_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P4_Location_2.Location = new System.Drawing.Point(288, 1312);
@@ -1168,7 +1180,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(402, 1312);
@@ -1181,7 +1193,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(353, 1312);
@@ -1194,7 +1206,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox4.BackColor = System.Drawing.Color.White;
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(402, 1235);
@@ -1207,7 +1219,7 @@
             // 
             // P1_Location_3
             // 
-            this.P1_Location_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P1_Location_3.BackColor = System.Drawing.Color.White;
             this.P1_Location_3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_3.BackgroundImage")));
             this.P1_Location_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P1_Location_3.Location = new System.Drawing.Point(353, 1235);
@@ -1220,7 +1232,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox6.BackColor = System.Drawing.Color.White;
             this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Location = new System.Drawing.Point(517, 1312);
@@ -1233,7 +1245,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox7.BackColor = System.Drawing.Color.White;
             this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox7.Location = new System.Drawing.Point(468, 1312);
@@ -1246,7 +1258,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox8.BackColor = System.Drawing.Color.White;
             this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox8.Location = new System.Drawing.Point(517, 1235);
@@ -1259,7 +1271,7 @@
             // 
             // P1_Location_4
             // 
-            this.P1_Location_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P1_Location_4.BackColor = System.Drawing.Color.White;
             this.P1_Location_4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_4.BackgroundImage")));
             this.P1_Location_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P1_Location_4.Location = new System.Drawing.Point(468, 1235);
@@ -1272,7 +1284,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox10.BackColor = System.Drawing.Color.White;
             this.pictureBox10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox10.BackgroundImage")));
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox10.Location = new System.Drawing.Point(632, 1312);
@@ -1285,7 +1297,7 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox11.BackColor = System.Drawing.Color.White;
             this.pictureBox11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox11.BackgroundImage")));
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox11.Location = new System.Drawing.Point(583, 1312);
@@ -1298,7 +1310,7 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox12.BackColor = System.Drawing.Color.White;
             this.pictureBox12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox12.BackgroundImage")));
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox12.Location = new System.Drawing.Point(632, 1235);
@@ -1311,7 +1323,7 @@
             // 
             // P1_Location_5
             // 
-            this.P1_Location_5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P1_Location_5.BackColor = System.Drawing.Color.White;
             this.P1_Location_5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_5.BackgroundImage")));
             this.P1_Location_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P1_Location_5.Location = new System.Drawing.Point(583, 1235);
@@ -1324,7 +1336,7 @@
             // 
             // pictureBox14
             // 
-            this.pictureBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox14.BackColor = System.Drawing.Color.White;
             this.pictureBox14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox14.BackgroundImage")));
             this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox14.Location = new System.Drawing.Point(747, 1312);
@@ -1337,7 +1349,7 @@
             // 
             // pictureBox15
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox15.BackColor = System.Drawing.Color.White;
             this.pictureBox15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox15.BackgroundImage")));
             this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox15.Location = new System.Drawing.Point(698, 1312);
@@ -1350,7 +1362,7 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox16.BackColor = System.Drawing.Color.White;
             this.pictureBox16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox16.BackgroundImage")));
             this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox16.Location = new System.Drawing.Point(747, 1235);
@@ -1363,7 +1375,7 @@
             // 
             // P1_Location_6
             // 
-            this.P1_Location_6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P1_Location_6.BackColor = System.Drawing.Color.White;
             this.P1_Location_6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_6.BackgroundImage")));
             this.P1_Location_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P1_Location_6.Location = new System.Drawing.Point(698, 1235);
@@ -1376,7 +1388,7 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox18.BackColor = System.Drawing.Color.White;
             this.pictureBox18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox18.BackgroundImage")));
             this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox18.Location = new System.Drawing.Point(862, 1312);
@@ -1389,7 +1401,7 @@
             // 
             // pictureBox19
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox19.BackColor = System.Drawing.Color.White;
             this.pictureBox19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox19.BackgroundImage")));
             this.pictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox19.Location = new System.Drawing.Point(813, 1312);
@@ -1402,7 +1414,7 @@
             // 
             // pictureBox20
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox20.BackColor = System.Drawing.Color.White;
             this.pictureBox20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox20.BackgroundImage")));
             this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox20.Location = new System.Drawing.Point(862, 1235);
@@ -1415,7 +1427,7 @@
             // 
             // P1_Location_7
             // 
-            this.P1_Location_7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P1_Location_7.BackColor = System.Drawing.Color.White;
             this.P1_Location_7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_7.BackgroundImage")));
             this.P1_Location_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P1_Location_7.Location = new System.Drawing.Point(813, 1235);
@@ -1428,7 +1440,7 @@
             // 
             // pictureBox22
             // 
-            this.pictureBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox22.BackColor = System.Drawing.Color.White;
             this.pictureBox22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox22.BackgroundImage")));
             this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox22.Location = new System.Drawing.Point(977, 1312);
@@ -1441,7 +1453,7 @@
             // 
             // pictureBox23
             // 
-            this.pictureBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox23.BackColor = System.Drawing.Color.White;
             this.pictureBox23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox23.BackgroundImage")));
             this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox23.Location = new System.Drawing.Point(928, 1312);
@@ -1454,7 +1466,7 @@
             // 
             // pictureBox24
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox24.BackColor = System.Drawing.Color.White;
             this.pictureBox24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox24.BackgroundImage")));
             this.pictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox24.Location = new System.Drawing.Point(977, 1235);
@@ -1467,7 +1479,7 @@
             // 
             // P1_Location_8
             // 
-            this.P1_Location_8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P1_Location_8.BackColor = System.Drawing.Color.White;
             this.P1_Location_8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_8.BackgroundImage")));
             this.P1_Location_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P1_Location_8.Location = new System.Drawing.Point(928, 1235);
@@ -1480,7 +1492,7 @@
             // 
             // pictureBox26
             // 
-            this.pictureBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox26.BackColor = System.Drawing.Color.White;
             this.pictureBox26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox26.BackgroundImage")));
             this.pictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox26.Location = new System.Drawing.Point(1091, 1312);
@@ -1493,7 +1505,7 @@
             // 
             // pictureBox27
             // 
-            this.pictureBox27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox27.BackColor = System.Drawing.Color.White;
             this.pictureBox27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox27.BackgroundImage")));
             this.pictureBox27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox27.Location = new System.Drawing.Point(1042, 1312);
@@ -1506,7 +1518,7 @@
             // 
             // pictureBox28
             // 
-            this.pictureBox28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox28.BackColor = System.Drawing.Color.White;
             this.pictureBox28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox28.BackgroundImage")));
             this.pictureBox28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox28.Location = new System.Drawing.Point(1091, 1235);
@@ -1519,7 +1531,7 @@
             // 
             // P1_Location_9
             // 
-            this.P1_Location_9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.P1_Location_9.BackColor = System.Drawing.Color.White;
             this.P1_Location_9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("P1_Location_9.BackgroundImage")));
             this.P1_Location_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.P1_Location_9.Location = new System.Drawing.Point(1042, 1235);
@@ -1530,12 +1542,68 @@
             this.P1_Location_9.TabStop = false;
             this.P1_Location_9.Visible = false;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.White;
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(1307, 1093);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(68, 51);
+            this.pictureBox5.TabIndex = 124;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Visible = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.White;
+            this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox9.Location = new System.Drawing.Point(1231, 1093);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(68, 51);
+            this.pictureBox9.TabIndex = 123;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.Color.White;
+            this.pictureBox13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox13.BackgroundImage")));
+            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox13.Location = new System.Drawing.Point(1307, 1045);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(68, 51);
+            this.pictureBox13.TabIndex = 122;
+            this.pictureBox13.TabStop = false;
+            this.pictureBox13.Visible = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackColor = System.Drawing.Color.White;
+            this.pictureBox17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox17.BackgroundImage")));
+            this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox17.Location = new System.Drawing.Point(1231, 1045);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(68, 51);
+            this.pictureBox17.TabIndex = 121;
+            this.pictureBox17.TabStop = false;
+            this.pictureBox17.Visible = false;
+            // 
             // MainBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(2138, 1384);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.pictureBox13);
+            this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox26);
             this.Controls.Add(this.pictureBox27);
             this.Controls.Add(this.pictureBox28);
@@ -1744,6 +1812,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P1_Location_9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1863,5 +1935,9 @@
         private System.Windows.Forms.PictureBox pictureBox27;
         private System.Windows.Forms.PictureBox pictureBox28;
         private System.Windows.Forms.PictureBox P1_Location_9;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox17;
     }
 }
