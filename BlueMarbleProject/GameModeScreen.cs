@@ -69,6 +69,8 @@ namespace BlueMarbleProject
                 MessageBox.Show("게임 모드를 선택해주세요."); // 안 고를 시 띄우는 박스
         }
 
+        // 이하 선택됨 이미지 구현
+
         private void P2_RadioBtn_CheckedChanged(object sender, EventArgs e)
         {
             if (P2_RadioBtn.Checked)
