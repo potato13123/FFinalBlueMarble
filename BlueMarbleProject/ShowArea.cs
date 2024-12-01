@@ -14,8 +14,8 @@ namespace BlueMarbleProject
     {
         public ShowArea()
         {
-            ListViewSet();
             InitializeComponent();
+            ListViewSet();
         }
         public void ListViewSet()
         {

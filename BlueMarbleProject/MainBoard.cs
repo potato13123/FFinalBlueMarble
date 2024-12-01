@@ -179,24 +179,24 @@ namespace BlueMarbleProject
             P1[0].Visible = true; // 시작 지점의 1플레이어 보이게 하기
             P2[0].Visible = true; // 시작 지점의 2플레이어 보이게 하기
 
-            PlayerInfo[1].Money = 5000000; // 1 플레이어의 초기 자금 설정
+            PlayerInfo[1].Money = 300000; // 1 플레이어의 초기 자금 설정
             PlayerInfo[1].AreaIndex = new List<int>(); // 1 플레이어의 위치값
             PlayerInfo[1].BuildName = new List<string>(); // 1플레이어의 소유 건물
 
-            PlayerInfo[2].Money = 5000000; // 2 플레이어의 초기 자금 설정
+            PlayerInfo[2].Money = 300000; // 2 플레이어의 초기 자금 설정
             PlayerInfo[2].AreaIndex = new List<int>(); // 2 플레이어의 위치값
             PlayerInfo[2].BuildName = new List<string>(); // 2플레이어의 소유 건물
             if (P3BtnClicked || P4BtnClicked) // 만약 3이나 4인으로 체크했다면
             {
                 P3[0].Visible = true; // 시작 지점의 3플레이어 보이게 하기
-                PlayerInfo[3].Money = 5000000; // 3 플레이어의 초기 자금 설정
+                PlayerInfo[3].Money = 300000; // 3 플레이어의 초기 자금 설정
                 PlayerInfo[3].AreaIndex = new List<int>(); // 3 플레이어의 위치값
                 PlayerInfo[3].BuildName = new List<string>(); // 3 플레이어의 소유 건물
             }
             if (P4BtnClicked) // 만약 4인으로 체크했다면
             {
                 P4[0].Visible = true; // 시작 지점의 4플레이어 보이게 하기
-                PlayerInfo[4].Money = 5000000; // 4 플레이어의 초기 자금 설정
+                PlayerInfo[4].Money = 300000; // 4 플레이어의 초기 자금 설정
                 PlayerInfo[4].AreaIndex = new List<int>(); // 4 플레이어의 위치값
                 PlayerInfo[4].BuildName = new List<string>(); // 4 플레이어의 소유 건물
             }
@@ -669,8 +669,8 @@ namespace BlueMarbleProject
             Dice_Btn.BackColor = Color.Purple; // 눌림 표시
 
             Random rand = new Random(); // 난수 생성
-            diceRoll1 = 2;//rand.Next(1, 7); // 1-6까지 랜덤수 생성
-            diceRoll2 = 3;//rand.Next(1, 7);
+            diceRoll1 = rand.Next(1, 7); // 1-6까지 랜덤수 생성
+            diceRoll2 = rand.Next(1, 7);
 
             diceSum = diceRoll1 + diceRoll2;
 
