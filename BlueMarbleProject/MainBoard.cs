@@ -51,8 +51,8 @@ namespace BlueMarbleProject
     }
     public partial class MainBoard : Form
     {
-        private PictureBox[] Area = new PictureBox[35]; // 픽쳐박스로 만든 각 지역을 지칭하는 배열 선언, 35 = 총 36칸
-        private PictureBox[] Build = new PictureBox[20]; // 각 건물을 지을 위치를 저장하는 픽쳐박스
+        public static PictureBox[] Area = new PictureBox[35]; // 픽쳐박스로 만든 각 지역을 지칭하는 배열 선언, 35 = 총 36칸
+        public static PictureBox[] Build = new PictureBox[20]; // 각 건물을 지을 위치를 저장하는 픽쳐박스
         private PictureBox[] P1 = new PictureBox[35]; // 1플레이어를 나타내는 픽쳐박스
         private PictureBox[] P2 = new PictureBox[35]; // 2플레이어를 나타내는 픽쳐박스
         private PictureBox[] P3 = new PictureBox[35]; // 3플레이어를 나타내는 픽쳐박스
@@ -70,7 +70,7 @@ namespace BlueMarbleProject
         public int doubleNum = 0; // 더블의 횟수를 카운트하는 변수 3번 나오면 무인도
 
         public int playerLastLocation; // 주사위를 던진 후 가게될 위치
-        public int playerNowLocation; // 주사위를 던지기 전 현재 있는 위치
+        public static int playerNowLocation; // 주사위를 던지기 전 현재 있는 위치
 
         public int diceRoll1 = 0; // 왼쪽 주사위의 값
         public int diceRoll2 = 0; // 오른쪽 주사위의 값
@@ -80,11 +80,11 @@ namespace BlueMarbleProject
         public static int showAreaTurn = 0; // 보유 현황 확인 플레이어 번호
 
         // 인원수 인자값
-        public bool P2c; // 게임모드 값 전역변수로 받아내기
-        public bool P3c;
-        public bool P4c;
+        public static bool P2c; // 게임모드 값 전역변수로 받아내기
+        public static bool P3c;
+        public static bool P4c;
         // 모드 인자값
-        public bool Teammode;
+        public static bool Teammode;
 
 
         public MainBoard(bool P2BtnClicked, bool P3BtnClicked, bool P4BtnClicked, bool Team_BtnClicked, bool Solo_BtnClicked)
@@ -462,16 +462,123 @@ namespace BlueMarbleProject
 
         public bool ToolgateCheck() // 통행 가능한지? 불가능하면 매각 or 파산
         {
-            return true;
+            int turnTemp = AreaInfo[playerNowLocation].Owner; // 현재 플레이어가 위치한 지역의 주인이 누구인지?
+            int index = PlayerInfo[turnTemp].AreaIndex.IndexOf(areaIndex);
+            string buildNameTemp = PlayerInfo[turnTemp].BuildName[index]; // 3-4인전 간 누가 주인인지를 모름
+            int areaPrice = 0;
+            switch (buildNameTemp)
+            {
+                case "별장":
+                    areaPrice = AreaInfo[areaIndex].TollPrice[0]; // 별장은 0번 areainfo의 인덱스의 값을 통행료로 지불
+                    break;
+                case "빌딩":
+                    areaPrice = AreaInfo[areaIndex].TollPrice[1]; // 별장은 0번 areainfo의 인덱스의 값을 통행료로 지불
+                    break;
+                case "호텔":
+                    areaPrice = AreaInfo[areaIndex].TollPrice[2]; // 별장은 0번 areainfo의 인덱스의 값을 통행료로 지불
+                    break;
+                case "랜드마크":
+                    areaPrice = AreaInfo[areaIndex].TollPrice[3]; // 별장은 0번 areainfo의 인덱스의 값을 통행료로 지불
+                    break;
+            }
+            if (PlayerInfo[diceTurn].Money < areaPrice) // 통행료보다 가진 돈이 적을 경우
+            {
+                return false; // 지불 불가
+            }
+            else return true; // 지불
         }
 
-        public bool TakeOverCheck() // 인수 가능한지 여부 체크
+        public bool TakeOverCheck() // 인수 가능한지 체크
         {
-            return true;
+            int turnTemp = AreaInfo[playerNowLocation].Owner;
+            int index = PlayerInfo[turnTemp].AreaIndex.IndexOf(areaIndex);
+            string buildNameTemp = PlayerInfo[turnTemp].BuildName[index];
+
+            if (buildNameTemp == "랜드마크") // 인수 불가
+                return false;
+            int areaPrice = 0;
+            switch (buildNameTemp)
+            {
+                case "별장":
+                    areaPrice = (int)(AreaInfo[areaIndex].BuildPrice[0] * 1.5);
+                    break;
+                case "빌딩":
+                    areaPrice = (int)(AreaInfo[areaIndex].BuildPrice[1] * 1.5);
+                    break;
+                case "호텔":
+                    areaPrice = (int)(AreaInfo[areaIndex].BuildPrice[2] * 1.5);
+                    break;
+                case "랜드마크":
+                    areaPrice = (int)(AreaInfo[areaIndex].BuildPrice[3] * 1.5);
+                    break;
+            }
+            if (PlayerInfo[diceTurn].Money < areaPrice) // 인수 할 돈이 없는 경우
+                return false;
+            else return true; // 인수 가능한 경우
         }
 
         public void AreaSpot() // 현재 무슨 건물이 지어져있는지에 따라 각기 다른 건물을 구매할 수 있는 함수
-        {
+        { // 팀전 시 수정 필요
+            if (AreaInfo[areaIndex].Owner == 0) // 소유주가 없을 경우
+            {
+                Building building = new Building(); // Building.cs 가져오기
+                building.ShowDialog(); // building 폼 띄우기
+                building.Dispose();
+            }
+            else if (AreaInfo[areaIndex].Owner == diceTurn) // 도착한 건물이 자기 소유이고
+            {
+                int index = PlayerInfo[diceTurn].AreaIndex.IndexOf(areaIndex); // 건물 번호 추적
+                if (PlayerInfo[diceTurn].BuildName[index] == "랜드마크") // 랜드마크일 경우
+                    return; // 창 띄우지 않기
+                Building building = new Building();
+                building.ShowDialog();
+                building.Dispose();
+            }
+            else // 상대 소유의 칸에 도착할 경우
+            {
+                if (ToolgateCheck()) // 지불 가능 여부 검사
+                {
+                    GameTollgate tollgate = new GameTollgate();
+                    tollgate.ShowDialog(); // 통행료 폼 띄우기
+                    tollgate.Dispose();
+
+                    P1_CurMoney.Text = string.Format("Player : {0:N0}원", PlayerInfo[1].Money);
+                    P2_CurMoney.Text = string.Format("Player : {0:N0}원", PlayerInfo[2].Money);
+                    P3_CurMoney.Text = string.Format("Player : {0:N0}원", PlayerInfo[3].Money);
+                    P4_CurMoney.Text = string.Format("Player : {0:N0}원", PlayerInfo[4].Money);
+
+                    if (TakeOverCheck()) // 인수 가능 여부 검사
+                    {
+                        TakeOver takeover = new TakeOver(); // 인수 창 띄우기
+                        takeover.ShowDialog();
+                        takeover.Dispose();
+                    }
+                }
+                else // 지불이 불가능 할 경우
+                {
+                    GameTollgate tollgate = new GameTollgate();
+                    tollgate.ShowDialog(); // 일단 남은 돈 지불
+                    tollgate.Dispose();
+                    if (PlayerInfo[diceTurn].AreaIndex.Count < 1) // 매각 건물이 없을 경우 즉시 패배 패배 문구 출력
+                    {
+                        MessageBox.Show(string.Format("GAME OVER!\nPlayer{0} 패배!!", diceTurn));
+                        this.Close();
+                    }
+                    if (PlayerInfo[diceTurn].Money < 0) // 돈이 0보다 적을 때
+                    {
+
+                    }
+                    if (PlayerInfo[diceTurn].Money < 0) // 매각 후 한번 더 검사 했는데 돈이 0보다 적을 경우 패배 처리
+                    {
+                        MessageBox.Show(string.Format("GAME OVER!\nPlayer{0} 패배!!", diceTurn));
+                        this.Close();
+                    }
+                }
+            }
+            P1_CurMoney.Text = string.Format("Player : {0:N0}원", PlayerInfo[1].Money);
+            P2_CurMoney.Text = string.Format("Player : {0:N0}원", PlayerInfo[2].Money);
+            P3_CurMoney.Text = string.Format("Player : {0:N0}원", PlayerInfo[3].Money);
+            P4_CurMoney.Text = string.Format("Player : {0:N0}원", PlayerInfo[4].Money);
 
         }
         public bool WorldTourCheck() // 월드 투어 여부 체크
@@ -562,8 +669,8 @@ namespace BlueMarbleProject
             Dice_Btn.BackColor = Color.Purple; // 눌림 표시
 
             Random rand = new Random(); // 난수 생성
-            diceRoll1 = rand.Next(1, 7); // 1-6까지 랜덤수 생성
-            diceRoll2 = rand.Next(1, 7);
+            diceRoll1 = 2;//rand.Next(1, 7); // 1-6까지 랜덤수 생성
+            diceRoll2 = 3;//rand.Next(1, 7);
 
             diceSum = diceRoll1 + diceRoll2;
 
@@ -848,21 +955,33 @@ namespace BlueMarbleProject
         private void P1_CurAsset_Click(object sender, EventArgs e)
         {
             showAreaTurn = 1;
+            ShowArea showArea = new ShowArea();
+            showArea.ShowDialog(); // 보유 현황 창 띄우기
+            showArea.Dispose();
         }
 
         private void P2_CurAsset_Click(object sender, EventArgs e)
         {
             showAreaTurn = 2;
+            ShowArea showArea = new ShowArea();
+            showArea.ShowDialog(); // 보유 현황 창 띄우기
+            showArea.Dispose();
         }
 
         private void P3_CurAsset_Click(object sender, EventArgs e)
         {
             showAreaTurn = 3;
+            ShowArea showArea = new ShowArea();
+            showArea.ShowDialog(); // 보유 현황 창 띄우기
+            showArea.Dispose();
         }
 
         private void P4_CurAsset_Click(object sender, EventArgs e)
         {
             showAreaTurn = 4;
+            ShowArea showArea = new ShowArea();
+            showArea.ShowDialog(); // 보유 현황 창 띄우기
+            showArea.Dispose();
         }
         // 세계 여행 중일 때 해당 픽쳐박스를 클릭하면 해당 지역으로 이동하는 함수들
         private void Area1_Click(object sender, EventArgs e)

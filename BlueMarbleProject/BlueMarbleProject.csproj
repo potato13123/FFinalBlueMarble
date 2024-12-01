@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Building.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Building.Designer.cs">
+      <DependentUpon>Building.cs</DependentUpon>
+    </Compile>
     <Compile Include="GameModeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,12 @@
     <Compile Include="GameStartScreen.Designer.cs">
       <DependentUpon>GameStartScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameTollgate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameTollgate.Designer.cs">
+      <DependentUpon>GameTollgate.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,11 +78,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowArea.Designer.cs">
+      <DependentUpon>ShowArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeOver.Designer.cs">
+      <DependentUpon>TakeOver.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Building.resx">
+      <DependentUpon>Building.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GameModeScreen.resx">
       <DependentUpon>GameModeScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameStartScreen.resx">
       <DependentUpon>GameStartScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameTollgate.resx">
+      <DependentUpon>GameTollgate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainBoard.resx">
       <DependentUpon>MainBoard.cs</DependentUpon>
@@ -85,6 +115,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ShowArea.resx">
+      <DependentUpon>ShowArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeOver.resx">
+      <DependentUpon>TakeOver.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
