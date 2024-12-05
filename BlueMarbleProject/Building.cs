@@ -45,7 +45,7 @@ namespace BlueMarbleProject
             {
                 Randmark.Enabled = false; // 랜드마크는 호텔이 지어져있을 경우 업그레이드 가능
                 // 관광지일 경우 랜드마크만 건설
-                if (MainBoard.areaIndex == 4 || MainBoard.areaIndex == 13 || MainBoard.areaIndex == 22 || MainBoard.areaIndex == 29 || MainBoard.areaIndex == 35)
+                if (MainBoard.areaIndex == 4 || MainBoard.areaIndex == 13 || MainBoard.areaIndex == 22 || MainBoard.areaIndex == 25 || MainBoard.areaIndex == 29 || MainBoard.areaIndex == 35)
                 {
                     Villa.Enabled = false;
                     Apart.Enabled = false;
